@@ -1,0 +1,61 @@
+server:
+  address: ${APP_BIND_ADDRESS:127.0.0.1}
+  port: 8081
+spring:
+  profiles:
+    active: ${APP_PROFILE:local}
+  sql:
+    init:
+      mode: never
+  data:
+    redis:
+      host: localhost
+      port: 6379
+      database: 6
+      # 本机练习配置，与 Memurai 的 requirepass 保持一致。
+      password: '123456'
+      timeout: 5s
+  application:
+    name: project-approval-demo
+  datasource:
+    url: jdbc:mysql://localhost:3306/project_approval_demo?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true
+    username: approval_app
+    # 本机练习配置，沿用 IDEA 中原来已能连接成功的密码。
+    password: 'Zhangchong007@'
+    hikari:
+      maximum-pool-size: 5
+      connection-init-sql: SET time_zone = '+08:00'
+  jackson:
+    time-zone: Asia/Shanghai
+
+mybatis:
+  mapper-locations: classpath*:mapper/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
+    default-statement-timeout: 10
+    jdbc-type-for-null: 'NULL'
+app:
+  security:
+    issuer: project-approval-demo
+    token-minutes: 480
+    session-idle-minutes: 30
+    refresh-threshold-minutes: 10
+    max-login-failures: 5
+    login-lock-seconds: 600
+    redis-prefix: 'approval:v2:'
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+  endpoint:
+    health:
+      show-details: when-authorized
+logging:
+  pattern:
+    console: '%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level [%X{requestId}] %logger{40} - %msg%n'
+    file: '%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level [%X{requestId}] %logger{40} - %msg%n'
+  file:
+    name: ${APP_LOG_FILE:logs/approval.log}
+  level:
+    com.learning.approval: INFO

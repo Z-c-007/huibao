@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace 必须与 Java Mapper 接口的完整名称一致。 -->
+<mapper namespace="com.ruoyi.system.mapper.ValveWellMapper">
+
+    <!-- 结果映射：column 是数据库列名，property 是 Java 对象属性名。
+         例如 well_name 的值会填入 ValveWell.wellName。
+         使用完整 Java 类名，便于初学者直接定位到数据对象。 -->
+    <resultMap id="ValveWellResult" type="com.ruoyi.system.domain.ValveWell">
+        <id property="wellId" column="well_id"/>
+        <result property="wellCode" column="well_code"/>
+        <result property="wellName" column="well_name"/>
+        <result property="location" column="location"/>
+        <result property="diameter" column="diameter"/>
+        <result property="status" column="status"/>
+    </resultMap>
+
+    <!-- id 对应 Java Mapper 的 selectValveWellList 方法。
+         SELECT 指定读取哪些列；FROM 指定表；ORDER BY 保证示例展示顺序。
+         没有 WHERE 表示不筛选，没有分页表示读取全部少量教学数据。
+         resultMap 指定如何把每行记录转成 ValveWell 对象。 -->
+    <select id="selectValveWellList" resultMap="ValveWellResult">
+        SELECT well_id, well_code, well_name, location, diameter, status
+        FROM biz_valve_well
+        ORDER BY well_id ASC
+    </select>
+</mapper>

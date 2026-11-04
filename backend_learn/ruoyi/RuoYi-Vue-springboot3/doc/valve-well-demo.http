@@ -1,0 +1,5 @@
+### 在 IDEA 支持 HTTP Client 时，点击 GET 左侧的运行图标即可查看 JSON。
+### 先导入 sql/valve_well_demo.sql，再使用 druid,valve-well-demo 启动配置重启后端。
+### 默认不需要 Authorization 请求头，此免登录接口只在演示配置启用时注册。
+GET http://localhost:8080/gis/valveWell/list
+Accept: application/json

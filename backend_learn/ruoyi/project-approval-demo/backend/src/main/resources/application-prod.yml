@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    password: ${APP_DB_PASSWORD}
+app:
+  security:
+    secret-base64: ${APP_JWT_SECRET}

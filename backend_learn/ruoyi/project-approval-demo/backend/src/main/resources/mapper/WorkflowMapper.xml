@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.learning.approval.mapper.WorkflowMapper">
+    <insert id="insertSubmission">
+        INSERT INTO project_submission(id,project_id,round_no,submitter_id,submitter_name,org_id,org_name,
+            project_code,project_name,amount,material,status,snapshot_available,idempotency_key,request_hash,submitted_at)
+        VALUES(#{id},#{projectId},#{roundNo},#{submitterId},#{submitterName},#{orgId},#{orgName},
+            #{projectCode},#{projectName},#{amount},#{material},'PENDING',TRUE,#{idempotencyKey},#{requestHash},NOW())
+    </insert>
+    <select id="selectSubmission" resultType="com.learning.approval.domain.Submission">
+        SELECT * FROM project_submission WHERE project_id=#{projectId} AND round_no=#{roundNo}
+    </select>
+    <select id="selectReceipt" resultType="com.learning.approval.domain.Submission">
+        SELECT * FROM project_submission WHERE submitter_id=#{userId} AND idempotency_key=#{key}
+    </select>
+    <select id="selectSubmissions" resultType="com.learning.approval.domain.Submission">
+        SELECT * FROM project_submission WHERE project_id=#{projectId} ORDER BY round_no
+    </select>
+    <update id="finishSubmission">
+        UPDATE project_submission SET status=#{status},closed_at=NOW()
+        WHERE project_id=#{projectId} AND round_no=#{roundNo} AND status='PENDING'
+    </update>
+    <insert id="insertStep">
+        INSERT INTO approval_step(id,project_id,round_no,seq,org_id,org_name,status,started_at)
+        VALUES(#{id},#{projectId},#{roundNo},#{seq},#{orgId},#{orgName},#{status},#{startedAt})
+    </insert>
+    <insert id="insertAssignees">
+        INSERT INTO approval_assignee(step_id,user_id,username,display_name,status) VALUES
+        <foreach collection="assignees" item="a" separator=",">(#{a.stepId},#{a.userId},#{a.username},#{a.displayName},#{a.status})</foreach>
+    </insert>
+    <select id="selectSteps" resultType="com.learning.approval.domain.ApprovalStep">
+        SELECT s.id,s.project_id,s.round_no,s.seq,s.org_id,s.status,s.actor_id,s.opinion,s.started_at,s.acted_at,
+            COALESCE(s.org_name,o.name) AS org_name,COALESCE(s.actor_name,u.display_name) AS actor_name
+        FROM approval_step s JOIN organization o ON o.id=s.org_id LEFT JOIN app_user u ON u.id=s.actor_id
+        WHERE s.project_id=#{projectId}<if test="roundNo != null"> AND s.round_no=#{roundNo}</if> ORDER BY s.round_no,s.seq
+    </select>
+    <select id="selectAssignees" resultType="com.learning.approval.domain.ApprovalAssignee">
+        SELECT a.* FROM approval_assignee a JOIN approval_step s ON s.id=a.step_id
+        WHERE s.project_id=#{projectId}<if test="roundNo != null"> AND s.round_no=#{roundNo}</if> ORDER BY s.round_no,s.seq,a.user_id
+    </select>
+    <select id="selectStep" resultType="com.learning.approval.domain.ApprovalStep">SELECT * FROM approval_step WHERE id=#{stepId}</select>
+    <select id="selectNext" resultType="com.learning.approval.domain.ApprovalStep">
+        SELECT * FROM approval_step WHERE project_id=#{projectId} AND round_no=#{roundNo} AND status='WAITING' ORDER BY seq LIMIT 1
+    </select>
+    <select id="hasReached" resultType="boolean">
+        SELECT COUNT(*) &gt; 0 FROM approval_step n JOIN approval_assignee a ON a.step_id=n.id
+        WHERE n.project_id=#{projectId} AND n.round_no=#{roundNo} AND n.started_at IS NOT NULL AND a.user_id=#{userId}
+    </select>
+    <select id="isPending" resultType="boolean">
+        SELECT COUNT(*) &gt; 0 FROM approval_assignee WHERE step_id=#{stepId} AND user_id=#{userId} AND status='PENDING'
+    </select>
+    <update id="resolveStep">
+        UPDATE approval_step SET status=#{status},actor_id=#{actorId},actor_name=#{actorName},opinion=#{opinion},acted_at=NOW()
+        WHERE id=#{id} AND status='PENDING'
+    </update>
+    <update id="resolveAssignees">
+        UPDATE approval_assignee SET status=CASE WHEN user_id=#{userId} THEN #{status} ELSE 'CLOSED' END
+        WHERE step_id=#{stepId} AND status='PENDING'
+    </update>
+    <update id="activateStep">UPDATE approval_step SET status='PENDING',started_at=NOW() WHERE id=#{stepId} AND status='WAITING'</update>
+    <update id="activateAssignees">UPDATE approval_assignee SET status='PENDING' WHERE step_id=#{stepId} AND status='WAITING'</update>
+    <update id="cancelAssignees">
+        UPDATE approval_assignee a JOIN approval_step n ON n.id=a.step_id SET a.status='CANCELLED'
+        WHERE n.project_id=#{projectId} AND n.round_no=#{roundNo} AND n.status IN ('WAITING','PENDING')
+          AND a.status IN ('WAITING','PENDING')
+    </update>
+    <update id="cancelSteps">
+        UPDATE approval_step SET status='CANCELLED',acted_at=NOW()
+        WHERE project_id=#{projectId} AND round_no=#{roundNo} AND status IN ('WAITING','PENDING')
+    </update>
+    <insert id="insertEvent" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO project_event(project_id,round_no,step_id,actor_id,actor_name,action,note,
+            before_status,after_status,before_version,after_version)
+        VALUES(#{projectId},#{roundNo},#{stepId},#{actorId},#{actorName},#{action},#{note},
+            #{beforeStatus},#{afterStatus},#{beforeVersion},#{afterVersion})
+    </insert>
+    <select id="selectEvents" resultType="com.learning.approval.domain.ProjectEvent">
+        SELECT e.id,e.project_id,e.round_no,e.step_id,e.actor_id,e.action,e.note,e.before_status,e.after_status,
+            e.before_version,e.after_version,e.created_at,COALESCE(e.actor_name,u.display_name) AS actor_name
+        FROM project_event e JOIN app_user u ON u.id=e.actor_id
+        WHERE e.project_id=#{projectId}<if test="roundNo != null"> AND e.round_no=#{roundNo}</if> ORDER BY e.id
+    </select>
+</mapper>

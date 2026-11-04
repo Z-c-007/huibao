@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.learning.approval.mapper.UserMapper">
+    <sql id="UserColumns">u.id,u.username,u.display_name,u.password_hash,u.org_id,u.enabled,o.name AS org_name,s.auth_version</sql>
+    <select id="selectByUsername" resultType="com.learning.approval.domain.AppUser">
+        SELECT <include refid="UserColumns"/> FROM app_user u
+        JOIN organization o ON o.id=u.org_id JOIN app_user_security s ON s.user_id=u.id
+        WHERE u.username=#{username}
+    </select>
+    <select id="selectById" resultType="com.learning.approval.domain.AppUser">
+        SELECT <include refid="UserColumns"/> FROM app_user u
+        JOIN organization o ON o.id=u.org_id JOIN app_user_security s ON s.user_id=u.id WHERE u.id=#{id}
+    </select>
+    <select id="selectSecurityStamp" resultType="com.learning.approval.domain.SecurityStamp">
+        SELECT u.id AS user_id,u.org_id,u.enabled,s.auth_version FROM app_user u
+        JOIN app_user_security s ON s.user_id=u.id WHERE u.id=#{userId}
+    </select>
+    <select id="lockSecurityStamp" resultType="com.learning.approval.domain.SecurityStamp">
+        SELECT u.id AS user_id,u.org_id,u.enabled,s.auth_version FROM app_user u
+        JOIN app_user_security s ON s.user_id=u.id WHERE u.id=#{userId} FOR UPDATE
+    </select>
+    <select id="selectUsers" resultType="com.learning.approval.domain.AppUser">
+        SELECT u.id,u.username,u.display_name,u.org_id,u.enabled,o.name AS org_name,s.auth_version
+        FROM app_user u JOIN organization o ON o.id=u.org_id JOIN app_user_security s ON s.user_id=u.id
+        ORDER BY u.id LIMIT #{limit} OFFSET #{offset}
+    </select>
+    <select id="countUsers" resultType="long">SELECT COUNT(*) FROM app_user</select>
+    <select id="lockNextUserId" resultType="long">SELECT next_id FROM app_id_sequence WHERE name='USER' FOR UPDATE</select>
+    <update id="advanceUserId">UPDATE app_id_sequence SET next_id=next_id+1 WHERE name='USER'</update>
+    <!-- role是V1遗留兼容列，不参与V2鉴权；真正的角色在app_user_role中。 -->
+    <insert id="insertUser">
+        INSERT INTO app_user(id,username,display_name,password_hash,org_id,role,enabled)
+        VALUES(#{id},#{username},#{displayName},#{passwordHash},#{orgId},'REPORTER',#{enabled})
+    </insert>
+    <insert id="insertSecurity">INSERT INTO app_user_security(user_id,auth_version) VALUES(#{userId},0)</insert>
+    <update id="updatePassword">UPDATE app_user SET password_hash=#{hash} WHERE id=#{userId}</update>
+    <update id="incrementAuthVersion">UPDATE app_user_security SET auth_version=auth_version+1 WHERE user_id=#{userId}</update>
+    <update id="updateEnabled">UPDATE app_user SET enabled=#{enabled} WHERE id=#{userId}</update>
+    <select id="selectOrganizations" resultType="com.learning.approval.domain.Organization">
+        SELECT id,name,parent_id FROM organization ORDER BY id
+    </select>
+    <select id="selectOrganization" resultType="com.learning.approval.domain.Organization">
+        SELECT id,name,parent_id FROM organization WHERE id=#{id}
+    </select>
+</mapper>

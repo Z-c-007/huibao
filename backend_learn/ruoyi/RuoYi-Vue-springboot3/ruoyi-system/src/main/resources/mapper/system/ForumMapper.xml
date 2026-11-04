@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ruoyi.system.mapper.ForumMapper">
+    <!-- 一行记录转为一个Java对象，返回JSON由后续MVC消息转换器负责。 -->
+    <resultMap id="TopicResult" type="com.ruoyi.system.domain.ForumTopic">
+        <id property="topicId" column="topic_id"/>
+        <result property="title" column="title"/>
+        <result property="description" column="description"/>
+        <result property="createTime" column="create_time"/>
+    </resultMap>
+    <resultMap id="CommentResult" type="com.ruoyi.system.domain.ForumComment">
+        <id property="commentId" column="comment_id"/>
+        <result property="topicId" column="topic_id"/>
+        <result property="parentId" column="parent_id"/>
+        <result property="authorId" column="author_id"/>
+        <result property="authorName" column="author_name"/>
+        <result property="content" column="content"/>
+        <result property="createBy" column="create_by"/>
+        <result property="createTime" column="create_time"/>
+    </resultMap>
+    <sql id="CommentColumns">comment_id, topic_id, parent_id, author_id, author_name, content, create_by, create_time</sql>
+    <select id="selectDemoTopic" resultMap="TopicResult">
+        SELECT topic_id, title, description, create_time FROM biz_forum_topic WHERE topic_key = 'valve-feedback'
+    </select>
+    <select id="selectTopicById" resultMap="TopicResult">
+        SELECT topic_id, title, description, create_time FROM biz_forum_topic WHERE topic_id = #{topicId}
+    </select>
+    <select id="selectCommentById" resultMap="CommentResult">
+        SELECT <include refid="CommentColumns"/> FROM biz_forum_comment WHERE comment_id = #{commentId}
+    </select>
+    <!-- 顶层评论单独分页。回复按需加载，不循环查询每条评论，避免自动产生N+1查询。 -->
+    <select id="selectComments" resultMap="CommentResult">
+        SELECT <include refid="CommentColumns"/> FROM biz_forum_comment
+        WHERE topic_id = #{topicId} AND parent_id IS NULL ORDER BY comment_id DESC
+    </select>
+    <select id="selectReplies" resultMap="CommentResult">
+        SELECT <include refid="CommentColumns"/> FROM biz_forum_comment
+        WHERE topic_id = #{topicId} AND parent_id = #{parentId} ORDER BY comment_id ASC
+    </select>
+    <!-- 使用参数绑定；作者来自后端安全上下文，不接受客户端指定。 -->
+    <insert id="insertComment" useGeneratedKeys="true" keyProperty="commentId">
+        INSERT INTO biz_forum_comment (topic_id, parent_id, author_id, author_name, content, create_by, create_time)
+        VALUES (#{topicId}, #{parentId}, #{authorId}, #{authorName}, #{content}, #{createBy}, #{createTime})
+    </insert>
+    <!-- namespace 对应Java Mapper全名，下面的id对应selectCommentForUpdate方法。
+         这是加锁查询：按主键读取当前记录并通过FOR UPDATE取得冲突写入所需的排他锁。
+         在Service外层事务中执行，锁保持到事务提交或回滚，不是在SELECT结束后立即释放。
+         新增回复也锁它的原评论，与删除该原评论协调，减少新增回复和删除评论的并发穿插。
+         事务管理与行锁是两种协作机制：Transactional不会自动把普通SELECT变成这种加锁读取。 -->
+    <select id="selectCommentForUpdate" resultMap="CommentResult">
+        SELECT <include refid="CommentColumns"/> FROM biz_forum_comment
+        WHERE comment_id = #{commentId} FOR UPDATE
+    </select>
+    <!-- id对应ForumMapper.updateContent；参数是编辑后的ForumComment对象。
+         #{content}与#{commentId}分别读取对象的新内容和目标编号，以参数绑定方式交给JDBC。
+         SET仅修改content，不改变作者、所属主题、父评论和创建时间。
+         WHERE限定目标记录；Mapper返回的int是影响行数，而不是resultMap映射的对象。
+         本例最终返回的对象来自Service中已查询并修改的target，不是UPDATE自动查询返回整条记录。 -->
+    <update id="updateContent">
+        UPDATE biz_forum_comment SET content = #{content} WHERE comment_id = #{commentId}
+    </update>
+    <delete id="deleteReplies">
+        DELETE FROM biz_forum_comment WHERE parent_id = #{parentId}
+    </delete>
+    <delete id="deleteComment">
+        DELETE FROM biz_forum_comment WHERE comment_id = #{commentId}
+    </delete>
+</mapper>

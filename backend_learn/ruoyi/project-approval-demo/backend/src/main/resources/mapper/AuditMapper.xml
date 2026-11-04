@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.learning.approval.mapper.AuditMapper">
+    <insert id="insert" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO app_audit_log(category,operation,actor_id,actor_name,request_id,http_method,path,ip,
+            success,http_status,duration_millis,message)
+        VALUES(#{category},#{operation},#{actorId},#{actorName},#{requestId},#{httpMethod},#{path},#{ip},
+            #{success},#{httpStatus},#{durationMillis},#{message})
+    </insert>
+    <sql id="Where"><where><if test="category != null and category != ''">category=#{category}</if></where></sql>
+    <select id="count" resultType="long">SELECT COUNT(*) FROM app_audit_log <include refid="Where"/></select>
+    <select id="select" resultType="com.learning.approval.domain.AuditLog">
+        SELECT * FROM app_audit_log <include refid="Where"/> ORDER BY id DESC LIMIT #{limit} OFFSET #{offset}
+    </select>
+</mapper>

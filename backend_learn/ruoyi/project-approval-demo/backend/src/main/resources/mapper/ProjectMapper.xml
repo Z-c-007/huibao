@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.learning.approval.mapper.ProjectMapper">
+    <sql id="MineWhere">
+        WHERE p.deleted=0 AND p.creator_id=#{userId}
+        <if test="status != null and status != ''">AND p.status=#{status}</if>
+    </sql>
+    <select id="countMine" resultType="long">SELECT COUNT(*) FROM project p <include refid="MineWhere"/></select>
+    <select id="selectMine" resultType="com.learning.approval.domain.ProjectView">
+        SELECT p.*,o.name AS org_name,u.display_name AS creator_name,co.name AS current_org_name
+        FROM project p JOIN organization o ON o.id=p.org_id JOIN app_user u ON u.id=p.creator_id
+        LEFT JOIN approval_step cs ON cs.id=p.current_step_id LEFT JOIN organization co ON co.id=cs.org_id
+        <include refid="MineWhere"/> ORDER BY p.updated_at DESC,p.id LIMIT #{limit} OFFSET #{offset}
+    </select>
+    <sql id="TaskWhere">
+        WHERE p.deleted=0
+        <if test="status != null and status != ''">AND r.status=#{status}</if>
+        <choose>
+            <when test="taskState == 'PENDING'">
+                AND p.status='PENDING' AND p.round_no=r.round_no
+                AND EXISTS(SELECT 1 FROM approval_step n JOIN approval_assignee a ON a.step_id=n.id
+                    WHERE n.id=p.current_step_id AND n.round_no=r.round_no
+                      AND a.user_id=#{userId} AND a.status='PENDING' AND n.status='PENDING')
+            </when>
+            <otherwise>
+                AND EXISTS(SELECT 1 FROM approval_step n JOIN approval_assignee a ON a.step_id=n.id
+                    WHERE n.project_id=p.id AND n.round_no=r.round_no AND n.started_at IS NOT NULL
+                      AND a.user_id=#{userId} AND a.status IN ('PASSED','REJECTED','CLOSED','CANCELLED'))
+            </otherwise>
+        </choose>
+    </sql>
+    <select id="countTasks" resultType="long">
+        SELECT COUNT(*) FROM project p JOIN project_submission r ON r.project_id=p.id <include refid="TaskWhere"/>
+    </select>
+    <!-- 审核列表按提交轮次返回快照，绝不返回其他轮次未分配给此人的材料内容。 -->
+    <select id="selectTasks" resultType="com.learning.approval.domain.ProjectView">
+        SELECT p.id,r.project_code,COALESCE(r.project_name,'升级前材料（未保存快照）') AS project_name,
+            r.amount,r.material,p.creator_id,r.org_id,r.org_name,r.submitter_name AS creator_name,
+            r.status,r.round_no,r.round_no AS visible_round_no,p.version,p.deleted,p.created_at,p.updated_at,
+            CASE WHEN p.round_no=r.round_no THEN p.current_step_id ELSE NULL END AS current_step_id,
+            CASE WHEN p.round_no=r.round_no THEN co.name ELSE NULL END AS current_org_name
+        FROM project p JOIN project_submission r ON r.project_id=p.id
+        LEFT JOIN approval_step cs ON cs.id=p.current_step_id LEFT JOIN organization co ON co.id=cs.org_id
+        <include refid="TaskWhere"/> ORDER BY r.round_no DESC,p.updated_at DESC,p.id LIMIT #{limit} OFFSET #{offset}
+    </select>
+    <select id="selectForUpdate" resultType="com.learning.approval.domain.Project">
+        SELECT * FROM project WHERE id=#{projectId} AND deleted=0 FOR UPDATE
+    </select>
+    <select id="selectDetail" resultType="com.learning.approval.domain.ProjectView">
+        SELECT p.*,o.name AS org_name,u.display_name AS creator_name,co.name AS current_org_name
+        FROM project p JOIN organization o ON o.id=p.org_id JOIN app_user u ON u.id=p.creator_id
+        LEFT JOIN approval_step cs ON cs.id=p.current_step_id LEFT JOIN organization co ON co.id=cs.org_id
+        WHERE p.id=#{projectId} AND p.deleted=0
+    </select>
+    <insert id="insert">
+        INSERT INTO project(id,project_code,project_name,amount,material,creator_id,org_id,status,version,round_no)
+        VALUES(#{id},#{projectCode},#{projectName},#{amount},#{material},#{creatorId},#{orgId},'DRAFT',0,0)
+    </insert>
+    <update id="updateContent">
+        UPDATE project SET project_code=#{projectCode},project_name=#{projectName},amount=#{amount},material=#{material},
+            version=version+1,updated_at=NOW() WHERE id=#{id} AND version=#{version} AND deleted=0 AND status IN ('DRAFT','REJECTED')
+    </update>
+    <update id="softDelete">
+        UPDATE project SET deleted=1,version=version+1,updated_at=NOW()
+        WHERE id=#{id} AND version=#{version} AND deleted=0 AND status='DRAFT' AND round_no=0
+    </update>
+    <update id="progress">
+        UPDATE project SET status=#{status},round_no=#{roundNo},current_step_id=#{stepId},version=version+1,updated_at=NOW()
+        WHERE id=#{id} AND version=#{version} AND deleted=0
+    </update>
+</mapper>
