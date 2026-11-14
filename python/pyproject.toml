@@ -1,0 +1,15 @@
+[project]
+name = "python"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "zc", email = "2057875257@qq.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "httpx>=0.28.1",
+    "langchain>=1.4.2",
+    "langchain-deepseek>=1.1.1",
+    "python-dotenv>=1.2.3",
+]
