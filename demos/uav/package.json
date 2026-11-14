@@ -1,0 +1,21 @@
+{
+  "name": "uav",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm --filter @uav/frontend dev",
+    "build": "pnpm --filter @uav/frontend build",
+    "preview": "pnpm --filter @uav/frontend preview",
+    "dev:backend": "pnpm --filter @uav/backend start:dev",
+    "build:backend": "pnpm --filter @uav/backend build",
+    "start:backend": "pnpm --filter @uav/backend start:prod",
+    "lint": "pnpm -r lint",
+    "format": "pnpm -r format",
+    "typecheck": "pnpm -r typecheck"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.33.1"
+}

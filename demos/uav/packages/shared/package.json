@@ -1,0 +1,23 @@
+{
+    "name": "@uav/shared",
+    "version": "0.0.1",
+    "private": true,
+    "main": "./src/index.ts",
+    "types": "./src/index.ts",
+    "exports": {
+        ".": {
+            "types": "./src/index.ts",
+            "import": "./src/index.ts",
+            "require": "./src/index.ts"
+        }
+    },
+    "scripts": {
+        "build": "tsc --build"
+    },
+    "dependencies": {
+        "uuid": "^14.0.0"
+    },
+    "devDependencies": {
+        "typescript": "catalog:"
+    }
+}
