@@ -1,0 +1,8 @@
+/* Cesium 容器必须有确定宽高：html/body/#app 的高度链是前提 */
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}

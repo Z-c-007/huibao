@@ -1,0 +1,19 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+.pytest_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv
+
+# 环境变量与密钥（.env.example 保留进 git 作模板）
+.env
+
+# 运行时数据
+data/audit.jsonl
+data/*.jsonl

@@ -1,0 +1,4898 @@
+[
+  {
+    "name": "通州运河装备厂（演示）",
+    "demo": true,
+    "archive_id": "DEMO-U001",
+    "management_type": "计划用水管理",
+    "responsible_office": "通州区节水管理机构（演示）",
+    "contact": "演示联络人",
+    "water_source": "公共供水",
+    "purpose": "生产经营",
+    "permit_id": null,
+    "permit_volume": null,
+    "meters": [
+      {
+        "id": "DEMO-M001",
+        "level": "单位总表",
+        "source": "公共供水",
+        "purpose": "生产经营用水"
+      }
+    ],
+    "indicator": {
+      "year": 2026,
+      "annual_volume": 20000,
+      "version": "V1",
+      "state": "issued",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "approved_on": "2026-01-15",
+      "source": "公共供水",
+      "purpose": "生产经营",
+      "method": "人工演示指标，非实际行政核定",
+      "monthly_shares": [
+        "0.08",
+        "0.06",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.1",
+        "0.1",
+        "0.1"
+      ],
+      "document_id": "DEMO-PLAN-2026-001"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "volume": 3771.43,
+        "meter_id": "DEMO-M001",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 2,
+        "volume": 2828.57,
+        "meter_id": "DEMO-M001",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 3,
+        "volume": 3771.43,
+        "meter_id": "DEMO-M001",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 4,
+        "volume": 3771.43,
+        "meter_id": "DEMO-M001",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 5,
+        "volume": 3771.43,
+        "meter_id": "DEMO-M001",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 6,
+        "volume": 3771.43,
+        "meter_id": "DEMO-M001",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 7,
+        "volume": 3771.43,
+        "meter_id": "DEMO-M001",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 8,
+        "volume": 3771.43,
+        "meter_id": "DEMO-M001",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 9,
+        "volume": 3771.42,
+        "meter_id": "DEMO-M001",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      }
+    ],
+    "latest_month": 9,
+    "scale": {
+      "metric": "生产经营规模",
+      "value": 100,
+      "unit": "演示规模单位",
+      "note": "未接入适用行业定额，不提供水效合规结论"
+    },
+    "history": [
+      {
+        "version": "V1",
+        "action": "演示指标下达",
+        "date": "2026-01-15",
+        "annual_volume": 20000
+      }
+    ]
+  },
+  {
+    "name": "通州滨河食品厂（演示）",
+    "demo": true,
+    "archive_id": "DEMO-U002",
+    "management_type": "计划用水管理",
+    "responsible_office": "通州区节水管理机构（演示）",
+    "contact": "演示联络人",
+    "water_source": "公共供水",
+    "purpose": "生产经营",
+    "permit_id": null,
+    "permit_volume": null,
+    "meters": [
+      {
+        "id": "DEMO-M002",
+        "level": "单位总表",
+        "source": "公共供水",
+        "purpose": "生产经营用水"
+      }
+    ],
+    "indicator": {
+      "year": 2026,
+      "annual_volume": 20000,
+      "version": "V1",
+      "state": "issued",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "approved_on": "2026-01-15",
+      "source": "公共供水",
+      "purpose": "生产经营",
+      "method": "人工演示指标，非实际行政核定",
+      "monthly_shares": [
+        "0.08",
+        "0.06",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.1",
+        "0.1",
+        "0.1"
+      ],
+      "document_id": "DEMO-PLAN-2026-002"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "volume": 2125.71,
+        "meter_id": "DEMO-M002",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 2,
+        "volume": 1594.29,
+        "meter_id": "DEMO-M002",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 3,
+        "volume": 2125.71,
+        "meter_id": "DEMO-M002",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 4,
+        "volume": 2125.71,
+        "meter_id": "DEMO-M002",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 5,
+        "volume": 2125.71,
+        "meter_id": "DEMO-M002",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 6,
+        "volume": 2125.71,
+        "meter_id": "DEMO-M002",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 7,
+        "volume": 2125.71,
+        "meter_id": "DEMO-M002",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 8,
+        "volume": 2125.71,
+        "meter_id": "DEMO-M002",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 9,
+        "volume": 2125.74,
+        "meter_id": "DEMO-M002",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      }
+    ],
+    "latest_month": 9,
+    "scale": {
+      "metric": "生产经营规模",
+      "value": 110,
+      "unit": "演示规模单位",
+      "note": "未接入适用行业定额，不提供水效合规结论"
+    },
+    "history": [
+      {
+        "version": "V1",
+        "action": "演示指标下达",
+        "date": "2026-01-15",
+        "annual_volume": 20000
+      }
+    ]
+  },
+  {
+    "name": "通州商务酒店（演示）",
+    "demo": true,
+    "archive_id": "DEMO-U003",
+    "management_type": "计划用水管理",
+    "responsible_office": "通州区节水管理机构（演示）",
+    "contact": "演示联络人",
+    "water_source": "公共供水",
+    "purpose": "生产经营",
+    "permit_id": null,
+    "permit_volume": null,
+    "meters": [
+      {
+        "id": "DEMO-M003",
+        "level": "单位总表",
+        "source": "公共供水",
+        "purpose": "生产经营用水"
+      }
+    ],
+    "indicator": {
+      "year": 2026,
+      "annual_volume": 6000,
+      "version": "V1",
+      "state": "issued",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "approved_on": "2026-01-15",
+      "source": "公共供水",
+      "purpose": "生产经营",
+      "method": "人工演示指标，非实际行政核定",
+      "monthly_shares": [
+        "0.08",
+        "0.06",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.1",
+        "0.1",
+        "0.1"
+      ],
+      "document_id": "DEMO-PLAN-2026-003"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "volume": 822.86,
+        "meter_id": "DEMO-M003",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 2,
+        "volume": 617.14,
+        "meter_id": "DEMO-M003",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 3,
+        "volume": 822.86,
+        "meter_id": "DEMO-M003",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 4,
+        "volume": 822.86,
+        "meter_id": "DEMO-M003",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 5,
+        "volume": 822.86,
+        "meter_id": "DEMO-M003",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 6,
+        "volume": 822.86,
+        "meter_id": "DEMO-M003",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 7,
+        "volume": 822.86,
+        "meter_id": "DEMO-M003",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 8,
+        "volume": 822.86,
+        "meter_id": "DEMO-M003",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 9,
+        "volume": 822.84,
+        "meter_id": "DEMO-M003",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      }
+    ],
+    "latest_month": 9,
+    "scale": {
+      "metric": "生产经营规模",
+      "value": 120,
+      "unit": "演示规模单位",
+      "note": "未接入适用行业定额，不提供水效合规结论"
+    },
+    "history": [
+      {
+        "version": "V1",
+        "action": "演示指标下达",
+        "date": "2026-01-15",
+        "annual_volume": 6000
+      }
+    ]
+  },
+  {
+    "name": "通州物流园（演示）",
+    "demo": true,
+    "archive_id": "DEMO-U004",
+    "management_type": "计划用水管理",
+    "responsible_office": "通州区节水管理机构（演示）",
+    "contact": "演示联络人",
+    "water_source": "公共供水",
+    "purpose": "生产经营",
+    "permit_id": null,
+    "permit_volume": null,
+    "meters": [
+      {
+        "id": "DEMO-M004",
+        "level": "单位总表",
+        "source": "公共供水",
+        "purpose": "生产经营用水"
+      }
+    ],
+    "indicator": {
+      "year": 2026,
+      "annual_volume": 9000,
+      "version": "V1",
+      "state": "issued",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "approved_on": "2026-01-15",
+      "source": "公共供水",
+      "purpose": "生产经营",
+      "method": "人工演示指标，非实际行政核定",
+      "monthly_shares": [
+        "0.08",
+        "0.06",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.1",
+        "0.1",
+        "0.1"
+      ],
+      "document_id": "DEMO-PLAN-2026-004"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "volume": 720.0,
+        "meter_id": "DEMO-M004",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 2,
+        "volume": 540.0,
+        "meter_id": "DEMO-M004",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 3,
+        "volume": 720.0,
+        "meter_id": "DEMO-M004",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 4,
+        "volume": 720.0,
+        "meter_id": "DEMO-M004",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 5,
+        "volume": 720.0,
+        "meter_id": "DEMO-M004",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 6,
+        "volume": 720.0,
+        "meter_id": "DEMO-M004",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 7,
+        "volume": 720.0,
+        "meter_id": "DEMO-M004",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 8,
+        "volume": 720.0,
+        "meter_id": "DEMO-M004",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 9,
+        "volume": 720.0,
+        "meter_id": "DEMO-M004",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      }
+    ],
+    "latest_month": 9,
+    "scale": {
+      "metric": "生产经营规模",
+      "value": 130,
+      "unit": "演示规模单位",
+      "note": "未接入适用行业定额，不提供水效合规结论"
+    },
+    "history": [
+      {
+        "version": "V1",
+        "action": "演示指标下达",
+        "date": "2026-01-15",
+        "annual_volume": 9000
+      }
+    ]
+  },
+  {
+    "name": "通州设施农业园（演示）",
+    "demo": true,
+    "archive_id": "DEMO-U005",
+    "management_type": "取水许可管理",
+    "responsible_office": "通州区节水管理机构（演示）",
+    "contact": "演示联络人",
+    "water_source": "地下水",
+    "purpose": "农业灌溉",
+    "permit_id": "DEMO-P005",
+    "permit_volume": 3300.0000000000005,
+    "meters": [
+      {
+        "id": "DEMO-M005",
+        "level": "单位总表",
+        "source": "地下水",
+        "purpose": "生产经营用水"
+      }
+    ],
+    "indicator": {
+      "year": 2026,
+      "annual_volume": 3000,
+      "version": "V1",
+      "state": "issued",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "approved_on": "2026-01-15",
+      "source": "地下水",
+      "purpose": "农业灌溉",
+      "method": "人工演示指标，非实际行政核定",
+      "monthly_shares": [
+        "0.02",
+        "0.02",
+        "0.04",
+        "0.1",
+        "0.15",
+        "0.18",
+        "0.18",
+        "0.17",
+        "0.1",
+        "0.02",
+        "0.01",
+        "0.01"
+      ],
+      "document_id": "DEMO-PLAN-2026-005"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "volume": 59.38,
+        "meter_id": "DEMO-M005",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 2,
+        "volume": 59.38,
+        "meter_id": "DEMO-M005",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 3,
+        "volume": 118.75,
+        "meter_id": "DEMO-M005",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 4,
+        "volume": 296.88,
+        "meter_id": "DEMO-M005",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 5,
+        "volume": 445.31,
+        "meter_id": "DEMO-M005",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 6,
+        "volume": 534.38,
+        "meter_id": "DEMO-M005",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 7,
+        "volume": 534.38,
+        "meter_id": "DEMO-M005",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 8,
+        "volume": 504.69,
+        "meter_id": "DEMO-M005",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 9,
+        "volume": 296.85,
+        "meter_id": "DEMO-M005",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      }
+    ],
+    "latest_month": 9,
+    "scale": {
+      "metric": "灌溉面积",
+      "value": 140,
+      "unit": "亩",
+      "note": "未接入适用行业定额，不提供水效合规结论"
+    },
+    "history": [
+      {
+        "version": "V1",
+        "action": "演示指标下达",
+        "date": "2026-01-15",
+        "annual_volume": 3000
+      }
+    ]
+  },
+  {
+    "name": "通州生态种植基地（演示）",
+    "demo": true,
+    "archive_id": "DEMO-U006",
+    "management_type": "取水许可管理",
+    "responsible_office": "通州区节水管理机构（演示）",
+    "contact": "演示联络人",
+    "water_source": "地下水",
+    "purpose": "农业灌溉",
+    "permit_id": "DEMO-P006",
+    "permit_volume": 5500.0,
+    "meters": [
+      {
+        "id": "DEMO-M006",
+        "level": "单位总表",
+        "source": "地下水",
+        "purpose": "生产经营用水"
+      }
+    ],
+    "indicator": {
+      "year": 2026,
+      "annual_volume": 5000,
+      "version": "V1",
+      "state": "issued",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "approved_on": "2026-01-15",
+      "source": "地下水",
+      "purpose": "农业灌溉",
+      "method": "人工演示指标，非实际行政核定",
+      "monthly_shares": [
+        "0.02",
+        "0.02",
+        "0.04",
+        "0.1",
+        "0.15",
+        "0.18",
+        "0.18",
+        "0.17",
+        "0.1",
+        "0.02",
+        "0.01",
+        "0.01"
+      ],
+      "document_id": "DEMO-PLAN-2026-006"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "volume": 37.5,
+        "meter_id": "DEMO-M006",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 2,
+        "volume": 37.5,
+        "meter_id": "DEMO-M006",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 3,
+        "volume": 75.0,
+        "meter_id": "DEMO-M006",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 4,
+        "volume": 187.5,
+        "meter_id": "DEMO-M006",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 5,
+        "volume": 281.25,
+        "meter_id": "DEMO-M006",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 6,
+        "volume": 337.5,
+        "meter_id": "DEMO-M006",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 7,
+        "volume": 337.5,
+        "meter_id": "DEMO-M006",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 8,
+        "volume": 318.75,
+        "meter_id": "DEMO-M006",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 9,
+        "volume": 187.5,
+        "meter_id": "DEMO-M006",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      }
+    ],
+    "latest_month": 9,
+    "scale": {
+      "metric": "灌溉面积",
+      "value": 150,
+      "unit": "亩",
+      "note": "未接入适用行业定额，不提供水效合规结论"
+    },
+    "history": [
+      {
+        "version": "V1",
+        "action": "演示指标下达",
+        "date": "2026-01-15",
+        "annual_volume": 5000
+      }
+    ]
+  },
+  {
+    "name": "通州住宅建设项目（演示）",
+    "demo": true,
+    "archive_id": "DEMO-U007",
+    "management_type": "计划用水管理",
+    "responsible_office": "通州区节水管理机构（演示）",
+    "contact": "演示联络人",
+    "water_source": "公共供水",
+    "purpose": "生产经营",
+    "permit_id": null,
+    "permit_volume": null,
+    "meters": [
+      {
+        "id": "DEMO-M007",
+        "level": "单位总表",
+        "source": "公共供水",
+        "purpose": "生产经营用水"
+      }
+    ],
+    "indicator": {
+      "year": 2026,
+      "annual_volume": 8000,
+      "version": "V1",
+      "state": "issued",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "approved_on": "2026-01-15",
+      "source": "公共供水",
+      "purpose": "生产经营",
+      "method": "人工演示指标，非实际行政核定",
+      "monthly_shares": [
+        "0.08",
+        "0.06",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.1",
+        "0.1",
+        "0.1"
+      ],
+      "document_id": "DEMO-PLAN-2026-007"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "volume": 594.29,
+        "meter_id": "DEMO-M007",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 2,
+        "volume": 445.71,
+        "meter_id": "DEMO-M007",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 3,
+        "volume": 594.29,
+        "meter_id": "DEMO-M007",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 4,
+        "volume": 594.29,
+        "meter_id": "DEMO-M007",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 5,
+        "volume": 594.29,
+        "meter_id": "DEMO-M007",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 6,
+        "volume": 594.29,
+        "meter_id": "DEMO-M007",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 7,
+        "volume": 594.29,
+        "meter_id": "DEMO-M007",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 8,
+        "volume": 594.29,
+        "meter_id": "DEMO-M007",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 9,
+        "volume": 594.26,
+        "meter_id": "DEMO-M007",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      }
+    ],
+    "latest_month": 9,
+    "scale": {
+      "metric": "生产经营规模",
+      "value": 160,
+      "unit": "演示规模单位",
+      "note": "未接入适用行业定额，不提供水效合规结论"
+    },
+    "history": [
+      {
+        "version": "V1",
+        "action": "演示指标下达",
+        "date": "2026-01-15",
+        "annual_volume": 8000
+      }
+    ]
+  },
+  {
+    "name": "通州市政施工项目（演示）",
+    "demo": true,
+    "archive_id": "DEMO-U008",
+    "management_type": "计划用水管理",
+    "responsible_office": "通州区节水管理机构（演示）",
+    "contact": "演示联络人",
+    "water_source": "公共供水",
+    "purpose": "生产经营",
+    "permit_id": null,
+    "permit_volume": null,
+    "meters": [
+      {
+        "id": "DEMO-M008",
+        "level": "单位总表",
+        "source": "公共供水",
+        "purpose": "生产经营用水"
+      }
+    ],
+    "indicator": {
+      "year": 2026,
+      "annual_volume": 6000,
+      "version": "V1",
+      "state": "pending",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "approved_on": "2026-01-15",
+      "source": "公共供水",
+      "purpose": "生产经营",
+      "method": "人工演示指标，非实际行政核定",
+      "monthly_shares": [
+        "0.08",
+        "0.06",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.1",
+        "0.1",
+        "0.1"
+      ],
+      "document_id": "DEMO-PLAN-2026-008"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "volume": 297.14,
+        "meter_id": "DEMO-M008",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 2,
+        "volume": 222.86,
+        "meter_id": "DEMO-M008",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 3,
+        "volume": 297.14,
+        "meter_id": "DEMO-M008",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 4,
+        "volume": 297.14,
+        "meter_id": "DEMO-M008",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 5,
+        "volume": 297.14,
+        "meter_id": "DEMO-M008",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 6,
+        "volume": 297.14,
+        "meter_id": "DEMO-M008",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 7,
+        "volume": 297.14,
+        "meter_id": "DEMO-M008",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 8,
+        "volume": 297.14,
+        "meter_id": "DEMO-M008",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 9,
+        "volume": 297.16,
+        "meter_id": "DEMO-M008",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      }
+    ],
+    "latest_month": 9,
+    "scale": {
+      "metric": "生产经营规模",
+      "value": 170,
+      "unit": "演示规模单位",
+      "note": "未接入适用行业定额，不提供水效合规结论"
+    },
+    "history": [
+      {
+        "version": "V1",
+        "action": "演示指标下达",
+        "date": "2026-01-15",
+        "annual_volume": 6000
+      }
+    ]
+  },
+  {
+    "name": "大兴智能装备厂（演示）",
+    "demo": true,
+    "archive_id": "DEMO-U009",
+    "management_type": "计划用水管理",
+    "responsible_office": "大兴区节水管理机构（演示）",
+    "contact": "演示联络人",
+    "water_source": "公共供水",
+    "purpose": "生产经营",
+    "permit_id": null,
+    "permit_volume": null,
+    "meters": [
+      {
+        "id": "DEMO-M009",
+        "level": "单位总表",
+        "source": "公共供水",
+        "purpose": "生产经营用水"
+      }
+    ],
+    "indicator": {
+      "year": 2026,
+      "annual_volume": 18000,
+      "version": "V1",
+      "state": "issued",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "approved_on": "2026-01-15",
+      "source": "公共供水",
+      "purpose": "生产经营",
+      "method": "人工演示指标，非实际行政核定",
+      "monthly_shares": [
+        "0.08",
+        "0.06",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.1",
+        "0.1",
+        "0.1"
+      ],
+      "document_id": "DEMO-PLAN-2026-009"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "volume": 2468.57,
+        "meter_id": "DEMO-M009",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 2,
+        "volume": 1851.43,
+        "meter_id": "DEMO-M009",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 3,
+        "volume": 2468.57,
+        "meter_id": "DEMO-M009",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 4,
+        "volume": 2468.57,
+        "meter_id": "DEMO-M009",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 5,
+        "volume": 2468.57,
+        "meter_id": "DEMO-M009",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 6,
+        "volume": 2468.57,
+        "meter_id": "DEMO-M009",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 7,
+        "volume": 2468.57,
+        "meter_id": "DEMO-M009",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 8,
+        "volume": 2468.57,
+        "meter_id": "DEMO-M009",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 9,
+        "volume": 2468.58,
+        "meter_id": "DEMO-M009",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      }
+    ],
+    "latest_month": 9,
+    "scale": {
+      "metric": "生产经营规模",
+      "value": 180,
+      "unit": "演示规模单位",
+      "note": "未接入适用行业定额，不提供水效合规结论"
+    },
+    "history": [
+      {
+        "version": "V1",
+        "action": "演示指标下达",
+        "date": "2026-01-15",
+        "annual_volume": 18000
+      }
+    ]
+  },
+  {
+    "name": "大兴生物制造基地（演示）",
+    "demo": true,
+    "archive_id": "DEMO-U010",
+    "management_type": "计划用水管理",
+    "responsible_office": "大兴区节水管理机构（演示）",
+    "contact": "演示联络人",
+    "water_source": "公共供水",
+    "purpose": "生产经营",
+    "permit_id": null,
+    "permit_volume": null,
+    "meters": [
+      {
+        "id": "DEMO-M010",
+        "level": "单位总表",
+        "source": "公共供水",
+        "purpose": "生产经营用水"
+      }
+    ],
+    "indicator": {
+      "year": 2026,
+      "annual_volume": 20000,
+      "version": "V1",
+      "state": "issued",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "approved_on": "2026-01-15",
+      "source": "公共供水",
+      "purpose": "生产经营",
+      "method": "人工演示指标，非实际行政核定",
+      "monthly_shares": [
+        "0.08",
+        "0.06",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.1",
+        "0.1",
+        "0.1"
+      ],
+      "document_id": "DEMO-PLAN-2026-010"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "volume": 2240.0,
+        "meter_id": "DEMO-M010",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 2,
+        "volume": 1680.0,
+        "meter_id": "DEMO-M010",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 3,
+        "volume": 2240.0,
+        "meter_id": "DEMO-M010",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 4,
+        "volume": 2240.0,
+        "meter_id": "DEMO-M010",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 5,
+        "volume": 2240.0,
+        "meter_id": "DEMO-M010",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 6,
+        "volume": 2240.0,
+        "meter_id": "DEMO-M010",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 7,
+        "volume": 2240.0,
+        "meter_id": "DEMO-M010",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 8,
+        "volume": 2240.0,
+        "meter_id": "DEMO-M010",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 9,
+        "volume": 2240.0,
+        "meter_id": "DEMO-M010",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      }
+    ],
+    "latest_month": 9,
+    "scale": {
+      "metric": "生产经营规模",
+      "value": 190,
+      "unit": "演示规模单位",
+      "note": "未接入适用行业定额，不提供水效合规结论"
+    },
+    "history": [
+      {
+        "version": "V1",
+        "action": "演示指标下达",
+        "date": "2026-01-15",
+        "annual_volume": 20000
+      }
+    ]
+  },
+  {
+    "name": "大兴商业综合体（演示）",
+    "demo": true,
+    "archive_id": "DEMO-U011",
+    "management_type": "计划用水管理",
+    "responsible_office": "大兴区节水管理机构（演示）",
+    "contact": "演示联络人",
+    "water_source": "公共供水",
+    "purpose": "生产经营",
+    "permit_id": null,
+    "permit_volume": null,
+    "meters": [
+      {
+        "id": "DEMO-M011",
+        "level": "单位总表",
+        "source": "公共供水",
+        "purpose": "生产经营用水"
+      }
+    ],
+    "indicator": {
+      "year": 2026,
+      "annual_volume": 8000,
+      "version": "V1",
+      "state": "issued",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "approved_on": "2026-01-15",
+      "source": "公共供水",
+      "purpose": "生产经营",
+      "method": "人工演示指标，非实际行政核定",
+      "monthly_shares": [
+        "0.08",
+        "0.06",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.1",
+        "0.1",
+        "0.1"
+      ],
+      "document_id": "DEMO-PLAN-2026-011"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "volume": 731.43,
+        "meter_id": "DEMO-M011",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 2,
+        "volume": 548.57,
+        "meter_id": "DEMO-M011",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 3,
+        "volume": 731.43,
+        "meter_id": "DEMO-M011",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 4,
+        "volume": 731.43,
+        "meter_id": "DEMO-M011",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 5,
+        "volume": 731.43,
+        "meter_id": "DEMO-M011",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 6,
+        "volume": 731.43,
+        "meter_id": "DEMO-M011",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 7,
+        "volume": 731.43,
+        "meter_id": "DEMO-M011",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 8,
+        "volume": 731.43,
+        "meter_id": "DEMO-M011",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 9,
+        "volume": 731.42,
+        "meter_id": "DEMO-M011",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      }
+    ],
+    "latest_month": 9,
+    "scale": {
+      "metric": "生产经营规模",
+      "value": 200,
+      "unit": "演示规模单位",
+      "note": "未接入适用行业定额，不提供水效合规结论"
+    },
+    "history": [
+      {
+        "version": "V1",
+        "action": "演示指标下达",
+        "date": "2026-01-15",
+        "annual_volume": 8000
+      }
+    ]
+  },
+  {
+    "name": "大兴会展酒店（演示）",
+    "demo": true,
+    "archive_id": "DEMO-U012",
+    "management_type": "计划用水管理",
+    "responsible_office": "大兴区节水管理机构（演示）",
+    "contact": "演示联络人",
+    "water_source": "公共供水",
+    "purpose": "生产经营",
+    "permit_id": null,
+    "permit_volume": null,
+    "meters": [
+      {
+        "id": "DEMO-M012",
+        "level": "单位总表",
+        "source": "公共供水",
+        "purpose": "生产经营用水"
+      }
+    ],
+    "indicator": {
+      "year": 2026,
+      "annual_volume": 6000,
+      "version": "V1",
+      "state": "pending",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "approved_on": "2026-01-15",
+      "source": "公共供水",
+      "purpose": "生产经营",
+      "method": "人工演示指标，非实际行政核定",
+      "monthly_shares": [
+        "0.08",
+        "0.06",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.1",
+        "0.1",
+        "0.1"
+      ],
+      "document_id": "DEMO-PLAN-2026-012"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "volume": 434.29,
+        "meter_id": "DEMO-M012",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 2,
+        "volume": 325.71,
+        "meter_id": "DEMO-M012",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 3,
+        "volume": 434.29,
+        "meter_id": "DEMO-M012",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 4,
+        "volume": 434.29,
+        "meter_id": "DEMO-M012",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 5,
+        "volume": 434.29,
+        "meter_id": "DEMO-M012",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 6,
+        "volume": 434.29,
+        "meter_id": "DEMO-M012",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 7,
+        "volume": 434.29,
+        "meter_id": "DEMO-M012",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 8,
+        "volume": 434.29,
+        "meter_id": "DEMO-M012",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 9,
+        "volume": 434.26,
+        "meter_id": "DEMO-M012",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      }
+    ],
+    "latest_month": 9,
+    "scale": {
+      "metric": "生产经营规模",
+      "value": 210,
+      "unit": "演示规模单位",
+      "note": "未接入适用行业定额，不提供水效合规结论"
+    },
+    "history": [
+      {
+        "version": "V1",
+        "action": "演示指标下达",
+        "date": "2026-01-15",
+        "annual_volume": 6000
+      }
+    ]
+  },
+  {
+    "name": "大兴蔬菜种植园（演示）",
+    "demo": true,
+    "archive_id": "DEMO-U013",
+    "management_type": "取水许可管理",
+    "responsible_office": "大兴区节水管理机构（演示）",
+    "contact": "演示联络人",
+    "water_source": "地下水",
+    "purpose": "农业灌溉",
+    "permit_id": "DEMO-P013",
+    "permit_volume": 4400.0,
+    "meters": [
+      {
+        "id": "DEMO-M013",
+        "level": "单位总表",
+        "source": "地下水",
+        "purpose": "生产经营用水"
+      }
+    ],
+    "indicator": {
+      "year": 2026,
+      "annual_volume": 4000,
+      "version": "V1",
+      "state": "issued",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "approved_on": "2026-01-15",
+      "source": "地下水",
+      "purpose": "农业灌溉",
+      "method": "人工演示指标，非实际行政核定",
+      "monthly_shares": [
+        "0.02",
+        "0.02",
+        "0.04",
+        "0.1",
+        "0.15",
+        "0.18",
+        "0.18",
+        "0.17",
+        "0.1",
+        "0.02",
+        "0.01",
+        "0.01"
+      ],
+      "document_id": "DEMO-PLAN-2026-013"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "volume": 95.83,
+        "meter_id": "DEMO-M013",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 2,
+        "volume": 95.83,
+        "meter_id": "DEMO-M013",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 3,
+        "volume": 191.67,
+        "meter_id": "DEMO-M013",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 4,
+        "volume": 479.17,
+        "meter_id": "DEMO-M013",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 5,
+        "volume": 718.75,
+        "meter_id": "DEMO-M013",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 6,
+        "volume": 862.5,
+        "meter_id": "DEMO-M013",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 7,
+        "volume": 862.5,
+        "meter_id": "DEMO-M013",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 8,
+        "volume": 814.58,
+        "meter_id": "DEMO-M013",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 9,
+        "volume": 479.17,
+        "meter_id": "DEMO-M013",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      }
+    ],
+    "latest_month": 9,
+    "scale": {
+      "metric": "灌溉面积",
+      "value": 220,
+      "unit": "亩",
+      "note": "未接入适用行业定额，不提供水效合规结论"
+    },
+    "history": [
+      {
+        "version": "V1",
+        "action": "演示指标下达",
+        "date": "2026-01-15",
+        "annual_volume": 4000
+      }
+    ]
+  },
+  {
+    "name": "大兴节水示范农场（演示）",
+    "demo": true,
+    "archive_id": "DEMO-U014",
+    "management_type": "取水许可管理",
+    "responsible_office": "大兴区节水管理机构（演示）",
+    "contact": "演示联络人",
+    "water_source": "地下水",
+    "purpose": "农业灌溉",
+    "permit_id": "DEMO-P014",
+    "permit_volume": 5500.0,
+    "meters": [
+      {
+        "id": "DEMO-M014",
+        "level": "单位总表",
+        "source": "地下水",
+        "purpose": "生产经营用水"
+      }
+    ],
+    "indicator": {
+      "year": 2026,
+      "annual_volume": 5000,
+      "version": "V1",
+      "state": "issued",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "approved_on": "2026-01-15",
+      "source": "地下水",
+      "purpose": "农业灌溉",
+      "method": "人工演示指标，非实际行政核定",
+      "monthly_shares": [
+        "0.02",
+        "0.02",
+        "0.04",
+        "0.1",
+        "0.15",
+        "0.18",
+        "0.18",
+        "0.17",
+        "0.1",
+        "0.02",
+        "0.01",
+        "0.01"
+      ],
+      "document_id": "DEMO-PLAN-2026-014"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "volume": 43.75,
+        "meter_id": "DEMO-M014",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 2,
+        "volume": 43.75,
+        "meter_id": "DEMO-M014",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 3,
+        "volume": 87.5,
+        "meter_id": "DEMO-M014",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 4,
+        "volume": 218.75,
+        "meter_id": "DEMO-M014",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 5,
+        "volume": 328.12,
+        "meter_id": "DEMO-M014",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 6,
+        "volume": 393.75,
+        "meter_id": "DEMO-M014",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 7,
+        "volume": 393.75,
+        "meter_id": "DEMO-M014",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 8,
+        "volume": 371.88,
+        "meter_id": "DEMO-M014",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 9,
+        "volume": 218.75,
+        "meter_id": "DEMO-M014",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      }
+    ],
+    "latest_month": 9,
+    "scale": {
+      "metric": "灌溉面积",
+      "value": 230,
+      "unit": "亩",
+      "note": "未接入适用行业定额，不提供水效合规结论"
+    },
+    "history": [
+      {
+        "version": "V1",
+        "action": "演示指标下达",
+        "date": "2026-01-15",
+        "annual_volume": 5000
+      }
+    ]
+  },
+  {
+    "name": "大兴公共设施项目（演示）",
+    "demo": true,
+    "archive_id": "DEMO-U015",
+    "management_type": "计划用水管理",
+    "responsible_office": "大兴区节水管理机构（演示）",
+    "contact": "演示联络人",
+    "water_source": "公共供水",
+    "purpose": "生产经营",
+    "permit_id": null,
+    "permit_volume": null,
+    "meters": [
+      {
+        "id": "DEMO-M015",
+        "level": "单位总表",
+        "source": "公共供水",
+        "purpose": "生产经营用水"
+      }
+    ],
+    "indicator": {
+      "year": 2026,
+      "annual_volume": 10000,
+      "version": "V1",
+      "state": "issued",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "approved_on": "2026-01-15",
+      "source": "公共供水",
+      "purpose": "生产经营",
+      "method": "人工演示指标，非实际行政核定",
+      "monthly_shares": [
+        "0.08",
+        "0.06",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.1",
+        "0.1",
+        "0.1"
+      ],
+      "document_id": "DEMO-PLAN-2026-015"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "volume": 1028.57,
+        "meter_id": "DEMO-M015",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 2,
+        "volume": 771.43,
+        "meter_id": "DEMO-M015",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 3,
+        "volume": 1028.57,
+        "meter_id": "DEMO-M015",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 4,
+        "volume": 1028.57,
+        "meter_id": "DEMO-M015",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 5,
+        "volume": 1028.57,
+        "meter_id": "DEMO-M015",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 6,
+        "volume": 1028.57,
+        "meter_id": "DEMO-M015",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 7,
+        "volume": 1028.57,
+        "meter_id": "DEMO-M015",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 8,
+        "volume": 1028.57,
+        "meter_id": "DEMO-M015",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 9,
+        "volume": 1028.58,
+        "meter_id": "DEMO-M015",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      }
+    ],
+    "latest_month": 9,
+    "scale": {
+      "metric": "生产经营规模",
+      "value": 240,
+      "unit": "演示规模单位",
+      "note": "未接入适用行业定额，不提供水效合规结论"
+    },
+    "history": [
+      {
+        "version": "V1",
+        "action": "演示指标下达",
+        "date": "2026-01-15",
+        "annual_volume": 10000
+      }
+    ]
+  },
+  {
+    "name": "大兴产业园建设项目（演示）",
+    "demo": true,
+    "archive_id": "DEMO-U016",
+    "management_type": "计划用水管理",
+    "responsible_office": "大兴区节水管理机构（演示）",
+    "contact": "演示联络人",
+    "water_source": "公共供水",
+    "purpose": "生产经营",
+    "permit_id": null,
+    "permit_volume": null,
+    "meters": [
+      {
+        "id": "DEMO-M016",
+        "level": "单位总表",
+        "source": "公共供水",
+        "purpose": "生产经营用水"
+      }
+    ],
+    "indicator": {
+      "year": 2026,
+      "annual_volume": 8000,
+      "version": "V1",
+      "state": "issued",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "approved_on": "2026-01-15",
+      "source": "公共供水",
+      "purpose": "生产经营",
+      "method": "人工演示指标，非实际行政核定",
+      "monthly_shares": [
+        "0.08",
+        "0.06",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.1",
+        "0.1",
+        "0.1"
+      ],
+      "document_id": "DEMO-PLAN-2026-016"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "volume": 777.14,
+        "meter_id": "DEMO-M016",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 2,
+        "volume": 582.86,
+        "meter_id": "DEMO-M016",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 3,
+        "volume": 777.14,
+        "meter_id": "DEMO-M016",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 4,
+        "volume": 777.14,
+        "meter_id": "DEMO-M016",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 5,
+        "volume": 777.14,
+        "meter_id": "DEMO-M016",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 6,
+        "volume": 777.14,
+        "meter_id": "DEMO-M016",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 7,
+        "volume": 777.14,
+        "meter_id": "DEMO-M016",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 8,
+        "volume": 777.14,
+        "meter_id": "DEMO-M016",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 9,
+        "volume": 777.16,
+        "meter_id": "DEMO-M016",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      }
+    ],
+    "latest_month": 9,
+    "scale": {
+      "metric": "生产经营规模",
+      "value": 250,
+      "unit": "演示规模单位",
+      "note": "未接入适用行业定额，不提供水效合规结论"
+    },
+    "history": [
+      {
+        "version": "V1",
+        "action": "演示指标下达",
+        "date": "2026-01-15",
+        "annual_volume": 8000
+      }
+    ]
+  },
+  {
+    "name": "朝阳电子设备厂（演示）",
+    "demo": true,
+    "archive_id": "DEMO-U017",
+    "management_type": "计划用水管理",
+    "responsible_office": "朝阳区节水管理机构（演示）",
+    "contact": "演示联络人",
+    "water_source": "公共供水",
+    "purpose": "生产经营",
+    "permit_id": null,
+    "permit_volume": null,
+    "meters": [
+      {
+        "id": "DEMO-M017",
+        "level": "单位总表",
+        "source": "公共供水",
+        "purpose": "生产经营用水"
+      }
+    ],
+    "indicator": {
+      "year": 2026,
+      "annual_volume": 16000,
+      "version": "V1",
+      "state": "issued",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "approved_on": "2026-01-15",
+      "source": "公共供水",
+      "purpose": "生产经营",
+      "method": "人工演示指标，非实际行政核定",
+      "monthly_shares": [
+        "0.08",
+        "0.06",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.1",
+        "0.1",
+        "0.1"
+      ],
+      "document_id": "DEMO-PLAN-2026-017"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "volume": 1188.57,
+        "meter_id": "DEMO-M017",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 2,
+        "volume": 891.43,
+        "meter_id": "DEMO-M017",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 3,
+        "volume": 1188.57,
+        "meter_id": "DEMO-M017",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 4,
+        "volume": 1188.57,
+        "meter_id": "DEMO-M017",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 5,
+        "volume": 1188.57,
+        "meter_id": "DEMO-M017",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 6,
+        "volume": 1188.57,
+        "meter_id": "DEMO-M017",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 7,
+        "volume": 1188.57,
+        "meter_id": "DEMO-M017",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 8,
+        "volume": 1188.57,
+        "meter_id": "DEMO-M017",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 9,
+        "volume": 1188.58,
+        "meter_id": "DEMO-M017",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      }
+    ],
+    "latest_month": 9,
+    "scale": {
+      "metric": "生产经营规模",
+      "value": 260,
+      "unit": "演示规模单位",
+      "note": "未接入适用行业定额，不提供水效合规结论"
+    },
+    "history": [
+      {
+        "version": "V1",
+        "action": "演示指标下达",
+        "date": "2026-01-15",
+        "annual_volume": 16000
+      }
+    ]
+  },
+  {
+    "name": "朝阳精密制造厂（演示）",
+    "demo": true,
+    "archive_id": "DEMO-U018",
+    "management_type": "计划用水管理",
+    "responsible_office": "朝阳区节水管理机构（演示）",
+    "contact": "演示联络人",
+    "water_source": "公共供水",
+    "purpose": "生产经营",
+    "permit_id": null,
+    "permit_volume": null,
+    "meters": [
+      {
+        "id": "DEMO-M018",
+        "level": "单位总表",
+        "source": "公共供水",
+        "purpose": "生产经营用水"
+      }
+    ],
+    "indicator": {
+      "year": 2026,
+      "annual_volume": 6000,
+      "version": "V1",
+      "state": "issued",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "approved_on": "2026-01-15",
+      "source": "公共供水",
+      "purpose": "生产经营",
+      "method": "人工演示指标，非实际行政核定",
+      "monthly_shares": [
+        "0.08",
+        "0.06",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.1",
+        "0.1",
+        "0.1"
+      ],
+      "document_id": "DEMO-PLAN-2026-018"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "volume": 480.0,
+        "meter_id": "DEMO-M018",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 2,
+        "volume": 360.0,
+        "meter_id": "DEMO-M018",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 3,
+        "volume": 480.0,
+        "meter_id": "DEMO-M018",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 4,
+        "volume": 480.0,
+        "meter_id": "DEMO-M018",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 5,
+        "volume": 480.0,
+        "meter_id": "DEMO-M018",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 6,
+        "volume": 480.0,
+        "meter_id": "DEMO-M018",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 7,
+        "volume": null,
+        "meter_id": "DEMO-M018",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "missing"
+      },
+      {
+        "month": 8,
+        "volume": 480.0,
+        "meter_id": "DEMO-M018",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 9,
+        "volume": 480.0,
+        "meter_id": "DEMO-M018",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      }
+    ],
+    "latest_month": 9,
+    "scale": {
+      "metric": "生产经营规模",
+      "value": 270,
+      "unit": "演示规模单位",
+      "note": "未接入适用行业定额，不提供水效合规结论"
+    },
+    "history": [
+      {
+        "version": "V1",
+        "action": "演示指标下达",
+        "date": "2026-01-15",
+        "annual_volume": 6000
+      }
+    ]
+  },
+  {
+    "name": "朝阳国际酒店（演示）",
+    "demo": true,
+    "archive_id": "DEMO-U019",
+    "management_type": "计划用水管理",
+    "responsible_office": "朝阳区节水管理机构（演示）",
+    "contact": "演示联络人",
+    "water_source": "公共供水",
+    "purpose": "生产经营",
+    "permit_id": null,
+    "permit_volume": null,
+    "meters": [
+      {
+        "id": "DEMO-M019",
+        "level": "单位总表",
+        "source": "公共供水",
+        "purpose": "生产经营用水"
+      }
+    ],
+    "indicator": {
+      "year": 2026,
+      "annual_volume": 10000,
+      "version": "V1",
+      "state": "issued",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "approved_on": "2026-01-15",
+      "source": "公共供水",
+      "purpose": "生产经营",
+      "method": "人工演示指标，非实际行政核定",
+      "monthly_shares": [
+        "0.08",
+        "0.06",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.1",
+        "0.1",
+        "0.1"
+      ],
+      "document_id": "DEMO-PLAN-2026-019"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "volume": 1462.86,
+        "meter_id": "DEMO-M019",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 2,
+        "volume": 1097.14,
+        "meter_id": "DEMO-M019",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 3,
+        "volume": 1462.86,
+        "meter_id": "DEMO-M019",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 4,
+        "volume": 1462.86,
+        "meter_id": "DEMO-M019",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 5,
+        "volume": 1462.86,
+        "meter_id": "DEMO-M019",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 6,
+        "volume": 1462.86,
+        "meter_id": "DEMO-M019",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 7,
+        "volume": 1462.86,
+        "meter_id": "DEMO-M019",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 8,
+        "volume": 1462.86,
+        "meter_id": "DEMO-M019",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 9,
+        "volume": 1462.84,
+        "meter_id": "DEMO-M019",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      }
+    ],
+    "latest_month": 9,
+    "scale": {
+      "metric": "生产经营规模",
+      "value": 280,
+      "unit": "演示规模单位",
+      "note": "未接入适用行业定额，不提供水效合规结论"
+    },
+    "history": [
+      {
+        "version": "V1",
+        "action": "演示指标下达",
+        "date": "2026-01-15",
+        "annual_volume": 10000
+      }
+    ]
+  },
+  {
+    "name": "朝阳文创园（演示）",
+    "demo": true,
+    "archive_id": "DEMO-U020",
+    "management_type": "计划用水管理",
+    "responsible_office": "朝阳区节水管理机构（演示）",
+    "contact": "演示联络人",
+    "water_source": "公共供水",
+    "purpose": "生产经营",
+    "permit_id": null,
+    "permit_volume": null,
+    "meters": [
+      {
+        "id": "DEMO-M020",
+        "level": "单位总表",
+        "source": "公共供水",
+        "purpose": "生产经营用水"
+      }
+    ],
+    "indicator": {
+      "year": 2026,
+      "annual_volume": 10000,
+      "version": "V1",
+      "state": "issued",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "approved_on": "2026-01-15",
+      "source": "公共供水",
+      "purpose": "生产经营",
+      "method": "人工演示指标，非实际行政核定",
+      "monthly_shares": [
+        "0.08",
+        "0.06",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.1",
+        "0.1",
+        "0.1"
+      ],
+      "document_id": "DEMO-PLAN-2026-020"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "volume": 1051.43,
+        "meter_id": "DEMO-M020",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 2,
+        "volume": 788.57,
+        "meter_id": "DEMO-M020",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 3,
+        "volume": 1051.43,
+        "meter_id": "DEMO-M020",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 4,
+        "volume": 1051.43,
+        "meter_id": "DEMO-M020",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 5,
+        "volume": 1051.43,
+        "meter_id": "DEMO-M020",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 6,
+        "volume": 1051.43,
+        "meter_id": "DEMO-M020",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 7,
+        "volume": 1051.43,
+        "meter_id": "DEMO-M020",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 8,
+        "volume": 1051.43,
+        "meter_id": "DEMO-M020",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 9,
+        "volume": 1051.42,
+        "meter_id": "DEMO-M020",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      }
+    ],
+    "latest_month": 9,
+    "scale": {
+      "metric": "生产经营规模",
+      "value": 290,
+      "unit": "演示规模单位",
+      "note": "未接入适用行业定额，不提供水效合规结论"
+    },
+    "history": [
+      {
+        "version": "V1",
+        "action": "演示指标下达",
+        "date": "2026-01-15",
+        "annual_volume": 10000
+      }
+    ]
+  },
+  {
+    "name": "朝阳都市农业园（演示）",
+    "demo": true,
+    "archive_id": "DEMO-U021",
+    "management_type": "取水许可管理",
+    "responsible_office": "朝阳区节水管理机构（演示）",
+    "contact": "演示联络人",
+    "water_source": "地下水",
+    "purpose": "农业灌溉",
+    "permit_id": "DEMO-P021",
+    "permit_volume": 4400.0,
+    "meters": [
+      {
+        "id": "DEMO-M021",
+        "level": "单位总表",
+        "source": "地下水",
+        "purpose": "生产经营用水"
+      }
+    ],
+    "indicator": {
+      "year": 2026,
+      "annual_volume": 4000,
+      "version": "V1",
+      "state": "issued",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "approved_on": "2026-01-15",
+      "source": "地下水",
+      "purpose": "农业灌溉",
+      "method": "人工演示指标，非实际行政核定",
+      "monthly_shares": [
+        "0.02",
+        "0.02",
+        "0.04",
+        "0.1",
+        "0.15",
+        "0.18",
+        "0.18",
+        "0.17",
+        "0.1",
+        "0.02",
+        "0.01",
+        "0.01"
+      ],
+      "document_id": "DEMO-PLAN-2026-021"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "volume": 50.0,
+        "meter_id": "DEMO-M021",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 2,
+        "volume": 50.0,
+        "meter_id": "DEMO-M021",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 3,
+        "volume": 100.0,
+        "meter_id": "DEMO-M021",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 4,
+        "volume": 250.0,
+        "meter_id": "DEMO-M021",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 5,
+        "volume": 375.0,
+        "meter_id": "DEMO-M021",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 6,
+        "volume": 450.0,
+        "meter_id": "DEMO-M021",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 7,
+        "volume": 450.0,
+        "meter_id": "DEMO-M021",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 8,
+        "volume": 425.0,
+        "meter_id": "DEMO-M021",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 9,
+        "volume": 250.0,
+        "meter_id": "DEMO-M021",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      }
+    ],
+    "latest_month": 9,
+    "scale": {
+      "metric": "灌溉面积",
+      "value": 300,
+      "unit": "亩",
+      "note": "未接入适用行业定额，不提供水效合规结论"
+    },
+    "history": [
+      {
+        "version": "V1",
+        "action": "演示指标下达",
+        "date": "2026-01-15",
+        "annual_volume": 4000
+      }
+    ]
+  },
+  {
+    "name": "朝阳园艺基地（演示）",
+    "demo": true,
+    "archive_id": "DEMO-U022",
+    "management_type": "取水许可管理",
+    "responsible_office": "朝阳区节水管理机构（演示）",
+    "contact": "演示联络人",
+    "water_source": "地下水",
+    "purpose": "农业灌溉",
+    "permit_id": "DEMO-P022",
+    "permit_volume": 3300.0000000000005,
+    "meters": [
+      {
+        "id": "DEMO-M022",
+        "level": "单位总表",
+        "source": "地下水",
+        "purpose": "生产经营用水"
+      }
+    ],
+    "indicator": {
+      "year": 2026,
+      "annual_volume": 3000,
+      "version": "V1",
+      "state": "issued",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "approved_on": "2026-01-15",
+      "source": "地下水",
+      "purpose": "农业灌溉",
+      "method": "人工演示指标，非实际行政核定",
+      "monthly_shares": [
+        "0.02",
+        "0.02",
+        "0.04",
+        "0.1",
+        "0.15",
+        "0.18",
+        "0.18",
+        "0.17",
+        "0.1",
+        "0.02",
+        "0.01",
+        "0.01"
+      ],
+      "document_id": "DEMO-PLAN-2026-022"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "volume": 62.5,
+        "meter_id": "DEMO-M022",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 2,
+        "volume": 62.5,
+        "meter_id": "DEMO-M022",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 3,
+        "volume": 125.0,
+        "meter_id": "DEMO-M022",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 4,
+        "volume": 312.5,
+        "meter_id": "DEMO-M022",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 5,
+        "volume": 468.75,
+        "meter_id": "DEMO-M022",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 6,
+        "volume": 562.5,
+        "meter_id": "DEMO-M022",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 7,
+        "volume": 562.5,
+        "meter_id": "DEMO-M022",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 8,
+        "volume": 531.25,
+        "meter_id": "DEMO-M022",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 9,
+        "volume": 312.5,
+        "meter_id": "DEMO-M022",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      }
+    ],
+    "latest_month": 9,
+    "scale": {
+      "metric": "灌溉面积",
+      "value": 310,
+      "unit": "亩",
+      "note": "未接入适用行业定额，不提供水效合规结论"
+    },
+    "history": [
+      {
+        "version": "V1",
+        "action": "演示指标下达",
+        "date": "2026-01-15",
+        "annual_volume": 3000
+      }
+    ]
+  },
+  {
+    "name": "朝阳商务楼建设项目（演示）",
+    "demo": true,
+    "archive_id": "DEMO-U023",
+    "management_type": "计划用水管理",
+    "responsible_office": "朝阳区节水管理机构（演示）",
+    "contact": "演示联络人",
+    "water_source": "公共供水",
+    "purpose": "生产经营",
+    "permit_id": null,
+    "permit_volume": null,
+    "meters": [
+      {
+        "id": "DEMO-M023",
+        "level": "单位总表",
+        "source": "公共供水",
+        "purpose": "生产经营用水"
+      }
+    ],
+    "indicator": {
+      "year": 2026,
+      "annual_volume": 14000,
+      "version": "V1",
+      "state": "issued",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "approved_on": "2026-01-15",
+      "source": "公共供水",
+      "purpose": "生产经营",
+      "method": "人工演示指标，非实际行政核定",
+      "monthly_shares": [
+        "0.08",
+        "0.06",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.1",
+        "0.1",
+        "0.1"
+      ],
+      "document_id": "DEMO-PLAN-2026-023"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "volume": 2080.0,
+        "meter_id": "DEMO-M023",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 2,
+        "volume": 1560.0,
+        "meter_id": "DEMO-M023",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 3,
+        "volume": 2080.0,
+        "meter_id": "DEMO-M023",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 4,
+        "volume": 2080.0,
+        "meter_id": "DEMO-M023",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 5,
+        "volume": 2080.0,
+        "meter_id": "DEMO-M023",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 6,
+        "volume": 2080.0,
+        "meter_id": "DEMO-M023",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 7,
+        "volume": 2080.0,
+        "meter_id": "DEMO-M023",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 8,
+        "volume": 2080.0,
+        "meter_id": "DEMO-M023",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 9,
+        "volume": 2080.0,
+        "meter_id": "DEMO-M023",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      }
+    ],
+    "latest_month": 9,
+    "scale": {
+      "metric": "生产经营规模",
+      "value": 320,
+      "unit": "演示规模单位",
+      "note": "未接入适用行业定额，不提供水效合规结论"
+    },
+    "history": [
+      {
+        "version": "V1",
+        "action": "演示指标下达",
+        "date": "2026-01-15",
+        "annual_volume": 14000
+      }
+    ]
+  },
+  {
+    "name": "朝阳道路改造项目（演示）",
+    "demo": true,
+    "archive_id": "DEMO-U024",
+    "management_type": "计划用水管理",
+    "responsible_office": "朝阳区节水管理机构（演示）",
+    "contact": "演示联络人",
+    "water_source": "公共供水",
+    "purpose": "生产经营",
+    "permit_id": null,
+    "permit_volume": null,
+    "meters": [
+      {
+        "id": "DEMO-M024",
+        "level": "单位总表",
+        "source": "公共供水",
+        "purpose": "生产经营用水"
+      }
+    ],
+    "indicator": {
+      "year": 2026,
+      "annual_volume": 6000,
+      "version": "V1",
+      "state": "issued",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "approved_on": "2026-01-15",
+      "source": "公共供水",
+      "purpose": "生产经营",
+      "method": "人工演示指标，非实际行政核定",
+      "monthly_shares": [
+        "0.08",
+        "0.06",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.1",
+        "0.1",
+        "0.1"
+      ],
+      "document_id": "DEMO-PLAN-2026-024"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "volume": 411.43,
+        "meter_id": "DEMO-M024",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 2,
+        "volume": 308.57,
+        "meter_id": "DEMO-M024",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 3,
+        "volume": 411.43,
+        "meter_id": "DEMO-M024",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 4,
+        "volume": 411.43,
+        "meter_id": "DEMO-M024",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 5,
+        "volume": 411.43,
+        "meter_id": "DEMO-M024",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 6,
+        "volume": 411.43,
+        "meter_id": "DEMO-M024",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 7,
+        "volume": 411.43,
+        "meter_id": "DEMO-M024",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 8,
+        "volume": 411.43,
+        "meter_id": "DEMO-M024",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 9,
+        "volume": 411.42,
+        "meter_id": "DEMO-M024",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      }
+    ],
+    "latest_month": 9,
+    "scale": {
+      "metric": "生产经营规模",
+      "value": 330,
+      "unit": "演示规模单位",
+      "note": "未接入适用行业定额，不提供水效合规结论"
+    },
+    "history": [
+      {
+        "version": "V1",
+        "action": "演示指标下达",
+        "date": "2026-01-15",
+        "annual_volume": 6000
+      }
+    ]
+  },
+  {
+    "name": "顺义汽车配套厂（演示）",
+    "demo": true,
+    "archive_id": "DEMO-U025",
+    "management_type": "计划用水管理",
+    "responsible_office": "顺义区节水管理机构（演示）",
+    "contact": "演示联络人",
+    "water_source": "公共供水",
+    "purpose": "生产经营",
+    "permit_id": null,
+    "permit_volume": null,
+    "meters": [
+      {
+        "id": "DEMO-M025",
+        "level": "单位总表",
+        "source": "公共供水",
+        "purpose": "生产经营用水"
+      }
+    ],
+    "indicator": {
+      "year": 2026,
+      "annual_volume": 22000,
+      "version": "V1",
+      "state": "issued",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "approved_on": "2026-01-15",
+      "source": "公共供水",
+      "purpose": "生产经营",
+      "method": "人工演示指标，非实际行政核定",
+      "monthly_shares": [
+        "0.08",
+        "0.06",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.1",
+        "0.1",
+        "0.1"
+      ],
+      "document_id": "DEMO-PLAN-2026-025"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "volume": 3520.0,
+        "meter_id": "DEMO-M025",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 2,
+        "volume": 2640.0,
+        "meter_id": "DEMO-M025",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 3,
+        "volume": 3520.0,
+        "meter_id": "DEMO-M025",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 4,
+        "volume": 3520.0,
+        "meter_id": "DEMO-M025",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 5,
+        "volume": 3520.0,
+        "meter_id": "DEMO-M025",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 6,
+        "volume": 3520.0,
+        "meter_id": "DEMO-M025",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 7,
+        "volume": 3520.0,
+        "meter_id": "DEMO-M025",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 8,
+        "volume": 3520.0,
+        "meter_id": "DEMO-M025",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 9,
+        "volume": 3520.0,
+        "meter_id": "DEMO-M025",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      }
+    ],
+    "latest_month": 9,
+    "scale": {
+      "metric": "生产经营规模",
+      "value": 340,
+      "unit": "演示规模单位",
+      "note": "未接入适用行业定额，不提供水效合规结论"
+    },
+    "history": [
+      {
+        "version": "V1",
+        "action": "演示指标下达",
+        "date": "2026-01-15",
+        "annual_volume": 22000
+      }
+    ]
+  },
+  {
+    "name": "顺义包装材料厂（演示）",
+    "demo": true,
+    "archive_id": "DEMO-U026",
+    "management_type": "计划用水管理",
+    "responsible_office": "顺义区节水管理机构（演示）",
+    "contact": "演示联络人",
+    "water_source": "公共供水",
+    "purpose": "生产经营",
+    "permit_id": null,
+    "permit_volume": null,
+    "meters": [
+      {
+        "id": "DEMO-M026",
+        "level": "单位总表",
+        "source": "公共供水",
+        "purpose": "生产经营用水"
+      }
+    ],
+    "indicator": {
+      "year": 2026,
+      "annual_volume": 17000,
+      "version": "V1",
+      "state": "issued",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "approved_on": "2026-01-15",
+      "source": "公共供水",
+      "purpose": "生产经营",
+      "method": "人工演示指标，非实际行政核定",
+      "monthly_shares": [
+        "0.08",
+        "0.06",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.1",
+        "0.1",
+        "0.1"
+      ],
+      "document_id": "DEMO-PLAN-2026-026"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "volume": 1360.0,
+        "meter_id": "DEMO-M026",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 2,
+        "volume": 1020.0,
+        "meter_id": "DEMO-M026",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 3,
+        "volume": 1360.0,
+        "meter_id": "DEMO-M026",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 4,
+        "volume": 1360.0,
+        "meter_id": "DEMO-M026",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 5,
+        "volume": 1360.0,
+        "meter_id": "DEMO-M026",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 6,
+        "volume": 1360.0,
+        "meter_id": "DEMO-M026",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 7,
+        "volume": 1360.0,
+        "meter_id": "DEMO-M026",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 8,
+        "volume": 1360.0,
+        "meter_id": "DEMO-M026",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 9,
+        "volume": 1360.0,
+        "meter_id": "DEMO-M026",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      }
+    ],
+    "latest_month": 9,
+    "scale": {
+      "metric": "生产经营规模",
+      "value": 350,
+      "unit": "演示规模单位",
+      "note": "未接入适用行业定额，不提供水效合规结论"
+    },
+    "history": [
+      {
+        "version": "V1",
+        "action": "演示指标下达",
+        "date": "2026-01-15",
+        "annual_volume": 17000
+      }
+    ]
+  },
+  {
+    "name": "顺义会展中心（演示）",
+    "demo": true,
+    "archive_id": "DEMO-U027",
+    "management_type": "计划用水管理",
+    "responsible_office": "顺义区节水管理机构（演示）",
+    "contact": "演示联络人",
+    "water_source": "公共供水",
+    "purpose": "生产经营",
+    "permit_id": null,
+    "permit_volume": null,
+    "meters": [
+      {
+        "id": "DEMO-M027",
+        "level": "单位总表",
+        "source": "公共供水",
+        "purpose": "生产经营用水"
+      }
+    ],
+    "indicator": {
+      "year": 2026,
+      "annual_volume": 10000,
+      "version": "V1",
+      "state": "issued",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "approved_on": "2026-01-15",
+      "source": "公共供水",
+      "purpose": "生产经营",
+      "method": "人工演示指标，非实际行政核定",
+      "monthly_shares": [
+        "0.08",
+        "0.06",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.1",
+        "0.1",
+        "0.1"
+      ],
+      "document_id": "DEMO-PLAN-2026-027"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "volume": 1108.57,
+        "meter_id": "DEMO-M027",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 2,
+        "volume": 831.43,
+        "meter_id": "DEMO-M027",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 3,
+        "volume": 1108.57,
+        "meter_id": "DEMO-M027",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 4,
+        "volume": 1108.57,
+        "meter_id": "DEMO-M027",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 5,
+        "volume": 1108.57,
+        "meter_id": "DEMO-M027",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 6,
+        "volume": 1108.57,
+        "meter_id": "DEMO-M027",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 7,
+        "volume": 1108.57,
+        "meter_id": "DEMO-M027",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 8,
+        "volume": 1108.57,
+        "meter_id": "DEMO-M027",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 9,
+        "volume": 1108.58,
+        "meter_id": "DEMO-M027",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      }
+    ],
+    "latest_month": 9,
+    "scale": {
+      "metric": "生产经营规模",
+      "value": 360,
+      "unit": "演示规模单位",
+      "note": "未接入适用行业定额，不提供水效合规结论"
+    },
+    "history": [
+      {
+        "version": "V1",
+        "action": "演示指标下达",
+        "date": "2026-01-15",
+        "annual_volume": 10000
+      }
+    ]
+  },
+  {
+    "name": "顺义仓储物流基地（演示）",
+    "demo": true,
+    "archive_id": "DEMO-U028",
+    "management_type": "计划用水管理",
+    "responsible_office": "顺义区节水管理机构（演示）",
+    "contact": "演示联络人",
+    "water_source": "公共供水",
+    "purpose": "生产经营",
+    "permit_id": null,
+    "permit_volume": null,
+    "meters": [
+      {
+        "id": "DEMO-M028",
+        "level": "单位总表",
+        "source": "公共供水",
+        "purpose": "生产经营用水"
+      }
+    ],
+    "indicator": {
+      "year": 2026,
+      "annual_volume": 7000,
+      "version": "V1",
+      "state": "issued",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "approved_on": "2026-01-15",
+      "source": "公共供水",
+      "purpose": "生产经营",
+      "method": "人工演示指标，非实际行政核定",
+      "monthly_shares": [
+        "0.08",
+        "0.06",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.1",
+        "0.1",
+        "0.1"
+      ],
+      "document_id": "DEMO-PLAN-2026-028"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "volume": 400.0,
+        "meter_id": "DEMO-M028",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 2,
+        "volume": 300.0,
+        "meter_id": "DEMO-M028",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 3,
+        "volume": 400.0,
+        "meter_id": "DEMO-M028",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 4,
+        "volume": 400.0,
+        "meter_id": "DEMO-M028",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 5,
+        "volume": 400.0,
+        "meter_id": "DEMO-M028",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 6,
+        "volume": 400.0,
+        "meter_id": "DEMO-M028",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 7,
+        "volume": 400.0,
+        "meter_id": "DEMO-M028",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 8,
+        "volume": 400.0,
+        "meter_id": "DEMO-M028",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 9,
+        "volume": 400.0,
+        "meter_id": "DEMO-M028",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      }
+    ],
+    "latest_month": 9,
+    "scale": {
+      "metric": "生产经营规模",
+      "value": 370,
+      "unit": "演示规模单位",
+      "note": "未接入适用行业定额，不提供水效合规结论"
+    },
+    "history": [
+      {
+        "version": "V1",
+        "action": "演示指标下达",
+        "date": "2026-01-15",
+        "annual_volume": 7000
+      }
+    ]
+  },
+  {
+    "name": "顺义温室种植园（演示）",
+    "demo": true,
+    "archive_id": "DEMO-U029",
+    "management_type": "取水许可管理",
+    "responsible_office": "顺义区节水管理机构（演示）",
+    "contact": "演示联络人",
+    "water_source": "地下水",
+    "purpose": "农业灌溉",
+    "permit_id": "DEMO-P029",
+    "permit_volume": 6600.000000000001,
+    "meters": [
+      {
+        "id": "DEMO-M029",
+        "level": "单位总表",
+        "source": "地下水",
+        "purpose": "生产经营用水"
+      }
+    ],
+    "indicator": {
+      "year": 2026,
+      "annual_volume": 6000,
+      "version": "V1",
+      "state": "issued",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "approved_on": "2026-01-15",
+      "source": "地下水",
+      "purpose": "农业灌溉",
+      "method": "人工演示指标，非实际行政核定",
+      "monthly_shares": [
+        "0.02",
+        "0.02",
+        "0.04",
+        "0.1",
+        "0.15",
+        "0.18",
+        "0.18",
+        "0.17",
+        "0.1",
+        "0.02",
+        "0.01",
+        "0.01"
+      ],
+      "document_id": "DEMO-PLAN-2026-029"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "volume": 168.75,
+        "meter_id": "DEMO-M029",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 2,
+        "volume": 168.75,
+        "meter_id": "DEMO-M029",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 3,
+        "volume": 337.5,
+        "meter_id": "DEMO-M029",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 4,
+        "volume": 843.75,
+        "meter_id": "DEMO-M029",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 5,
+        "volume": 1265.62,
+        "meter_id": "DEMO-M029",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 6,
+        "volume": 1518.75,
+        "meter_id": "DEMO-M029",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 7,
+        "volume": 1518.75,
+        "meter_id": "DEMO-M029",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 8,
+        "volume": 1434.38,
+        "meter_id": "DEMO-M029",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 9,
+        "volume": 843.75,
+        "meter_id": "DEMO-M029",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      }
+    ],
+    "latest_month": 9,
+    "scale": {
+      "metric": "灌溉面积",
+      "value": 380,
+      "unit": "亩",
+      "note": "未接入适用行业定额，不提供水效合规结论"
+    },
+    "history": [
+      {
+        "version": "V1",
+        "action": "演示指标下达",
+        "date": "2026-01-15",
+        "annual_volume": 6000
+      }
+    ]
+  },
+  {
+    "name": "顺义现代农业基地（演示）",
+    "demo": true,
+    "archive_id": "DEMO-U030",
+    "management_type": "取水许可管理",
+    "responsible_office": "顺义区节水管理机构（演示）",
+    "contact": "演示联络人",
+    "water_source": "地下水",
+    "purpose": "农业灌溉",
+    "permit_id": "DEMO-P030",
+    "permit_volume": 6600.000000000001,
+    "meters": [
+      {
+        "id": "DEMO-M030",
+        "level": "单位总表",
+        "source": "地下水",
+        "purpose": "生产经营用水"
+      }
+    ],
+    "indicator": {
+      "year": 2026,
+      "annual_volume": 6000,
+      "version": "V1",
+      "state": "issued",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "approved_on": "2026-01-15",
+      "source": "地下水",
+      "purpose": "农业灌溉",
+      "method": "人工演示指标，非实际行政核定",
+      "monthly_shares": [
+        "0.02",
+        "0.02",
+        "0.04",
+        "0.1",
+        "0.15",
+        "0.18",
+        "0.18",
+        "0.17",
+        "0.1",
+        "0.02",
+        "0.01",
+        "0.01"
+      ],
+      "document_id": "DEMO-PLAN-2026-030"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "volume": 113.75,
+        "meter_id": "DEMO-M030",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 2,
+        "volume": 113.75,
+        "meter_id": "DEMO-M030",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 3,
+        "volume": 227.5,
+        "meter_id": "DEMO-M030",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 4,
+        "volume": 568.75,
+        "meter_id": "DEMO-M030",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 5,
+        "volume": 853.12,
+        "meter_id": "DEMO-M030",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 6,
+        "volume": 1023.75,
+        "meter_id": "DEMO-M030",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 7,
+        "volume": 1023.75,
+        "meter_id": "DEMO-M030",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 8,
+        "volume": 966.88,
+        "meter_id": "DEMO-M030",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 9,
+        "volume": 568.75,
+        "meter_id": "DEMO-M030",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      }
+    ],
+    "latest_month": 9,
+    "scale": {
+      "metric": "灌溉面积",
+      "value": 390,
+      "unit": "亩",
+      "note": "未接入适用行业定额，不提供水效合规结论"
+    },
+    "history": [
+      {
+        "version": "V1",
+        "action": "演示指标下达",
+        "date": "2026-01-15",
+        "annual_volume": 6000
+      }
+    ]
+  },
+  {
+    "name": "顺义学校建设项目（演示）",
+    "demo": true,
+    "archive_id": "DEMO-U031",
+    "management_type": "计划用水管理",
+    "responsible_office": "顺义区节水管理机构（演示）",
+    "contact": "演示联络人",
+    "water_source": "公共供水",
+    "purpose": "生产经营",
+    "permit_id": null,
+    "permit_volume": null,
+    "meters": [
+      {
+        "id": "DEMO-M031",
+        "level": "单位总表",
+        "source": "公共供水",
+        "purpose": "生产经营用水"
+      }
+    ],
+    "indicator": {
+      "year": 2026,
+      "annual_volume": 8000,
+      "version": "V1",
+      "state": "issued",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "approved_on": "2026-01-15",
+      "source": "公共供水",
+      "purpose": "生产经营",
+      "method": "人工演示指标，非实际行政核定",
+      "monthly_shares": [
+        "0.08",
+        "0.06",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.1",
+        "0.1",
+        "0.1"
+      ],
+      "document_id": "DEMO-PLAN-2026-031"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "volume": 548.57,
+        "meter_id": "DEMO-M031",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 2,
+        "volume": 411.43,
+        "meter_id": "DEMO-M031",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 3,
+        "volume": 548.57,
+        "meter_id": "DEMO-M031",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 4,
+        "volume": 548.57,
+        "meter_id": "DEMO-M031",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 5,
+        "volume": 548.57,
+        "meter_id": "DEMO-M031",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 6,
+        "volume": 548.57,
+        "meter_id": "DEMO-M031",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 7,
+        "volume": 548.57,
+        "meter_id": "DEMO-M031",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 8,
+        "volume": 548.57,
+        "meter_id": "DEMO-M031",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 9,
+        "volume": 548.58,
+        "meter_id": "DEMO-M031",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      }
+    ],
+    "latest_month": 9,
+    "scale": {
+      "metric": "生产经营规模",
+      "value": 400,
+      "unit": "演示规模单位",
+      "note": "未接入适用行业定额，不提供水效合规结论"
+    },
+    "history": [
+      {
+        "version": "V1",
+        "action": "演示指标下达",
+        "date": "2026-01-15",
+        "annual_volume": 8000
+      }
+    ]
+  },
+  {
+    "name": "顺义管网改造项目（演示）",
+    "demo": true,
+    "archive_id": "DEMO-U032",
+    "management_type": "计划用水管理",
+    "responsible_office": "顺义区节水管理机构（演示）",
+    "contact": "演示联络人",
+    "water_source": "公共供水",
+    "purpose": "生产经营",
+    "permit_id": null,
+    "permit_volume": null,
+    "meters": [
+      {
+        "id": "DEMO-M032",
+        "level": "单位总表",
+        "source": "公共供水",
+        "purpose": "生产经营用水"
+      }
+    ],
+    "indicator": {
+      "year": 2026,
+      "annual_volume": 6000,
+      "version": "V1",
+      "state": "issued",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "approved_on": "2026-01-15",
+      "source": "公共供水",
+      "purpose": "生产经营",
+      "method": "人工演示指标，非实际行政核定",
+      "monthly_shares": [
+        "0.08",
+        "0.06",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.1",
+        "0.1",
+        "0.1"
+      ],
+      "document_id": "DEMO-PLAN-2026-032"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "volume": 205.71,
+        "meter_id": "DEMO-M032",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 2,
+        "volume": 154.29,
+        "meter_id": "DEMO-M032",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 3,
+        "volume": 205.71,
+        "meter_id": "DEMO-M032",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 4,
+        "volume": 205.71,
+        "meter_id": "DEMO-M032",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 5,
+        "volume": 205.71,
+        "meter_id": "DEMO-M032",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 6,
+        "volume": 205.71,
+        "meter_id": "DEMO-M032",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 7,
+        "volume": null,
+        "meter_id": "DEMO-M032",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "missing"
+      },
+      {
+        "month": 8,
+        "volume": 205.71,
+        "meter_id": "DEMO-M032",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 9,
+        "volume": 205.74,
+        "meter_id": "DEMO-M032",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      }
+    ],
+    "latest_month": 9,
+    "scale": {
+      "metric": "生产经营规模",
+      "value": 410,
+      "unit": "演示规模单位",
+      "note": "未接入适用行业定额，不提供水效合规结论"
+    },
+    "history": [
+      {
+        "version": "V1",
+        "action": "演示指标下达",
+        "date": "2026-01-15",
+        "annual_volume": 6000
+      }
+    ]
+  },
+  {
+    "name": "通州某制造企业",
+    "demo": true,
+    "archive_id": "DEMO-U033",
+    "management_type": "计划用水管理",
+    "responsible_office": "通州区节水管理机构（演示）",
+    "contact": "演示联络人",
+    "water_source": "公共供水",
+    "purpose": "生产经营",
+    "permit_id": null,
+    "permit_volume": null,
+    "meters": [
+      {
+        "id": "DEMO-M033",
+        "level": "单位总表",
+        "source": "公共供水",
+        "purpose": "生产经营用水"
+      }
+    ],
+    "indicator": {
+      "year": 2026,
+      "annual_volume": 10000,
+      "version": "V1",
+      "state": "issued",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "approved_on": "2026-01-15",
+      "source": "公共供水",
+      "purpose": "生产经营",
+      "method": "人工演示指标，非实际行政核定",
+      "monthly_shares": [
+        "0.08",
+        "0.06",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.1",
+        "0.1",
+        "0.1"
+      ],
+      "document_id": "DEMO-PLAN-2026-033"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "volume": 1371.43,
+        "meter_id": "DEMO-M033",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 2,
+        "volume": 1028.57,
+        "meter_id": "DEMO-M033",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 3,
+        "volume": 1371.43,
+        "meter_id": "DEMO-M033",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 4,
+        "volume": 1371.43,
+        "meter_id": "DEMO-M033",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 5,
+        "volume": 1371.43,
+        "meter_id": "DEMO-M033",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 6,
+        "volume": 1371.43,
+        "meter_id": "DEMO-M033",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 7,
+        "volume": 1371.43,
+        "meter_id": "DEMO-M033",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 8,
+        "volume": 1371.43,
+        "meter_id": "DEMO-M033",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 9,
+        "volume": 1371.42,
+        "meter_id": "DEMO-M033",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      }
+    ],
+    "latest_month": 9,
+    "scale": {
+      "metric": "生产经营规模",
+      "value": 420,
+      "unit": "演示规模单位",
+      "note": "未接入适用行业定额，不提供水效合规结论"
+    },
+    "history": [
+      {
+        "version": "V1",
+        "action": "演示指标下达",
+        "date": "2026-01-15",
+        "annual_volume": 10000
+      }
+    ]
+  },
+  {
+    "name": "大兴某制造企业",
+    "demo": true,
+    "archive_id": "DEMO-U034",
+    "management_type": "计划用水管理",
+    "responsible_office": "大兴区节水管理机构（演示）",
+    "contact": "演示联络人",
+    "water_source": "公共供水",
+    "purpose": "生产经营",
+    "permit_id": null,
+    "permit_volume": null,
+    "meters": [
+      {
+        "id": "DEMO-M034",
+        "level": "单位总表",
+        "source": "公共供水",
+        "purpose": "生产经营用水"
+      }
+    ],
+    "indicator": {
+      "year": 2026,
+      "annual_volume": 20000,
+      "version": "V1",
+      "state": "issued",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "approved_on": "2026-01-15",
+      "source": "公共供水",
+      "purpose": "生产经营",
+      "method": "人工演示指标，非实际行政核定",
+      "monthly_shares": [
+        "0.08",
+        "0.06",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.1",
+        "0.1",
+        "0.1"
+      ],
+      "document_id": "DEMO-PLAN-2026-034"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "volume": 1714.29,
+        "meter_id": "DEMO-M034",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 2,
+        "volume": 1285.71,
+        "meter_id": "DEMO-M034",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 3,
+        "volume": 1714.29,
+        "meter_id": "DEMO-M034",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 4,
+        "volume": 1714.29,
+        "meter_id": "DEMO-M034",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 5,
+        "volume": 1714.29,
+        "meter_id": "DEMO-M034",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 6,
+        "volume": 1714.29,
+        "meter_id": "DEMO-M034",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 7,
+        "volume": 1714.29,
+        "meter_id": "DEMO-M034",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 8,
+        "volume": 1714.29,
+        "meter_id": "DEMO-M034",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 9,
+        "volume": 1714.26,
+        "meter_id": "DEMO-M034",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      }
+    ],
+    "latest_month": 9,
+    "scale": {
+      "metric": "生产经营规模",
+      "value": 430,
+      "unit": "演示规模单位",
+      "note": "未接入适用行业定额，不提供水效合规结论"
+    },
+    "history": [
+      {
+        "version": "V1",
+        "action": "演示指标下达",
+        "date": "2026-01-15",
+        "annual_volume": 20000
+      }
+    ]
+  },
+  {
+    "name": "朝阳某酒店",
+    "demo": true,
+    "archive_id": "DEMO-U035",
+    "management_type": "计划用水管理",
+    "responsible_office": "朝阳区节水管理机构（演示）",
+    "contact": "演示联络人",
+    "water_source": "公共供水",
+    "purpose": "生产经营",
+    "permit_id": null,
+    "permit_volume": null,
+    "meters": [
+      {
+        "id": "DEMO-M035",
+        "level": "单位总表",
+        "source": "公共供水",
+        "purpose": "生产经营用水"
+      }
+    ],
+    "indicator": {
+      "year": 2026,
+      "annual_volume": 4000,
+      "version": "V1",
+      "state": "issued",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "approved_on": "2026-01-15",
+      "source": "公共供水",
+      "purpose": "生产经营",
+      "method": "人工演示指标，非实际行政核定",
+      "monthly_shares": [
+        "0.08",
+        "0.06",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.1",
+        "0.1",
+        "0.1"
+      ],
+      "document_id": "DEMO-PLAN-2026-035"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "volume": 342.86,
+        "meter_id": "DEMO-M035",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 2,
+        "volume": 257.14,
+        "meter_id": "DEMO-M035",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 3,
+        "volume": 342.86,
+        "meter_id": "DEMO-M035",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 4,
+        "volume": 342.86,
+        "meter_id": "DEMO-M035",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 5,
+        "volume": 342.86,
+        "meter_id": "DEMO-M035",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 6,
+        "volume": 342.86,
+        "meter_id": "DEMO-M035",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 7,
+        "volume": 342.86,
+        "meter_id": "DEMO-M035",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 8,
+        "volume": 342.86,
+        "meter_id": "DEMO-M035",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 9,
+        "volume": 342.84,
+        "meter_id": "DEMO-M035",
+        "source": "公共供水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      }
+    ],
+    "latest_month": 9,
+    "scale": {
+      "metric": "生产经营规模",
+      "value": 440,
+      "unit": "演示规模单位",
+      "note": "未接入适用行业定额，不提供水效合规结论"
+    },
+    "history": [
+      {
+        "version": "V1",
+        "action": "演示指标下达",
+        "date": "2026-01-15",
+        "annual_volume": 4000
+      }
+    ]
+  },
+  {
+    "name": "顺义某农场",
+    "demo": true,
+    "archive_id": "DEMO-U036",
+    "management_type": "取水许可管理",
+    "responsible_office": "顺义区节水管理机构（演示）",
+    "contact": "演示联络人",
+    "water_source": "地下水",
+    "purpose": "农业灌溉",
+    "permit_id": "DEMO-P036",
+    "permit_volume": 1320.0,
+    "meters": [
+      {
+        "id": "DEMO-M036",
+        "level": "单位总表",
+        "source": "地下水",
+        "purpose": "生产经营用水"
+      }
+    ],
+    "indicator": {
+      "year": 2026,
+      "annual_volume": 1200,
+      "version": "V1",
+      "state": "issued",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "approved_on": "2026-01-15",
+      "source": "地下水",
+      "purpose": "农业灌溉",
+      "method": "人工演示指标，非实际行政核定",
+      "monthly_shares": [
+        "0.02",
+        "0.02",
+        "0.04",
+        "0.1",
+        "0.15",
+        "0.18",
+        "0.18",
+        "0.17",
+        "0.1",
+        "0.02",
+        "0.01",
+        "0.01"
+      ],
+      "document_id": "DEMO-PLAN-2026-036"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "volume": 16.67,
+        "meter_id": "DEMO-M036",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 2,
+        "volume": 16.67,
+        "meter_id": "DEMO-M036",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 3,
+        "volume": 33.33,
+        "meter_id": "DEMO-M036",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 4,
+        "volume": 83.33,
+        "meter_id": "DEMO-M036",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 5,
+        "volume": 125.0,
+        "meter_id": "DEMO-M036",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 6,
+        "volume": 150.0,
+        "meter_id": "DEMO-M036",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 7,
+        "volume": 150.0,
+        "meter_id": "DEMO-M036",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 8,
+        "volume": 141.67,
+        "meter_id": "DEMO-M036",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      },
+      {
+        "month": 9,
+        "volume": 83.33,
+        "meter_id": "DEMO-M036",
+        "source": "地下水",
+        "origin": "人工演示计量记录",
+        "quality": "verified"
+      }
+    ],
+    "latest_month": 9,
+    "scale": {
+      "metric": "灌溉面积",
+      "value": 450,
+      "unit": "亩",
+      "note": "未接入适用行业定额，不提供水效合规结论"
+    },
+    "history": [
+      {
+        "version": "V1",
+        "action": "演示指标下达",
+        "date": "2026-01-15",
+        "annual_volume": 1200
+      }
+    ]
+  }
+]

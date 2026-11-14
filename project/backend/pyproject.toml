@@ -1,0 +1,35 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "zc", email = "2057875257@qq.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "alembic>=1.13,<2",
+    "fastapi[standard]>=0.141.1",
+    "httpx>=0.28.1",
+    "psycopg[binary]>=3.3.5",
+    "python-dotenv>=1.2.3",
+    "python-docx>=1.2,<2",
+    "reportlab>=4.4,<5",
+    "sqlalchemy[asyncio]>=2.0,<2.1",
+]
+
+[[tool.uv.index]]
+name = "aliyun"
+url = "https://mirrors.aliyun.com/pypi/simple/"
+default = true
+
+[tool.fastapi]
+entrypoint = "app.main:app"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]
